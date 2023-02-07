@@ -16,31 +16,48 @@
   body nav {
     display: inline-flex;
     width: 101vw;
+    height: 10%;
     position: sticky;
     left: 0;
     top: 0;
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(0, 0, 0, 0.5);
     justify-content: space-evenly;
+    z-index: 5;
   }
   body nav h2 {
-    width: 45%;
     display: inline-flex;
-    margin-left: 2%;
-    padding-right: -5%;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    position: absolute;
+    left: 30%;
+  }
+  body nav .expand {
+    display: default;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    right: 5%;
+    top: 8%;
+  }
+  body nav .expand:hover {
+    cursor: pointer;
   }
   body nav ul {
+    visibility: hidden;
     width: 50%;
     display: inline-flex;
     list-style: none;
-    margin-top: 3%;
     margin-left: -7%;
+    font-size: 15px;
   }
   body nav ul a {
     color: black;
     text-decoration: none;
   }
   body nav ul a li {
+    margin-top: 2px;
+    font-size: 12px;
     margin-left: 10px;
     color: black;
   }
@@ -258,6 +275,7 @@
   body nav {
     display: inline-flex;
     width: 101vw;
+    height: 10%;
     position: sticky;
     left: 0;
     top: 0;
@@ -265,13 +283,23 @@
     border: 2px solid rgba(0, 0, 0, 0.5);
     justify-content: space-evenly;
   }
+  body nav .expand {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    right: 5%;
+    top: 8%;
+  }
+  body nav .expand:hover {
+    cursor: pointer;
+  }
   body nav h2 {
-    width: 45%;
     display: inline-flex;
-    margin-left: 2%;
-    padding-right: -5%;
+    position: absolute;
+    left: 30%;
   }
   body nav ul {
+    visibility: hidden;
     width: 50%;
     display: inline-flex;
     list-style: none;
@@ -284,6 +312,8 @@
   }
   body nav ul a li {
     margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
     color: black;
   }
   body .welcome {
@@ -502,11 +532,15 @@
   body nav {
     display: inline-flex;
     width: 101vw;
+    height: 10%;
     position: sticky;
     left: 0;
     top: 0;
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(0, 0, 0, 0.5);
+  }
+  body nav .expand {
+    display: none;
   }
   body nav h2 {
     width: 45%;
@@ -742,12 +776,16 @@
   body nav {
     display: inline-flex;
     width: 101vw;
+    height: 10%;
     position: sticky;
     left: 0;
     top: 0;
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(0, 0, 0, 0.5);
     justify-content: space-evenly;
+  }
+  body nav .expand {
+    display: none;
   }
   body nav h2 {
     width: 50%;
@@ -954,12 +992,16 @@
   body nav {
     display: inline-flex;
     width: 101vw;
+    height: 10%;
     position: sticky;
     left: 0;
     top: 0;
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(0, 0, 0, 0.5);
     justify-content: space-evenly;
+  }
+  body nav .expand {
+    display: none;
   }
   body nav h2 {
     width: 50%;
