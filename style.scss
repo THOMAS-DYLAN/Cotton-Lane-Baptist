@@ -1,0 +1,1233 @@
+@media only screen and (max-width: 480px){
+   html {
+      background-color: black;
+   }
+
+   body {
+      -ms-overflow-style: none; /* IE 11 */
+      scrollbar-width: hidden; /* Firefox 64 */
+      width: 101%;
+      position: absolute;
+      left: -1vw;
+      top: -1vw;
+      background: url("./cross.jfif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      nav {
+         display: inline-flex;
+         width: 101vw;
+         position: sticky;
+         left: 0;
+         top: 0;
+         background-color: rgba(255, 255, 255, 0.4);
+         border: 2px solid rgba(0, 0, 0, 0.5);
+         justify-content: space-evenly;
+         h2 {
+            width: 45%;
+            display: inline-flex;
+            margin-left: 2%;
+            padding-right: -5%;
+         }
+         ul {
+            width: 50%;
+            display: inline-flex;
+            list-style: none;
+            margin-top: 3%;
+            margin-left: -7%;
+            a {
+               color: black;
+               text-decoration: none;
+               li {
+                  margin-left: 10px;
+                  color: black;
+               }
+            }
+         }
+      }
+      .welcome {
+         height: 60vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 2vh;
+         text-align: center;
+         .welcomeheader {
+            color: white;
+            margin-top: -37vh;
+            font-size: 40px;
+         }
+         h3 {
+            color: rgb(240, 240, 240);
+            font-size: 23px;
+            margin-top: -20px;
+         }
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+         }
+      }
+      .mainservices {
+         background: white;
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         display: inline-flex;
+         flex-wrap: wrap;
+         h3 {
+            font-size: 45px;
+            margin-left: 12px;
+            margin-top: 8px;
+            width: 70%;
+            font-family: "Times New Roman", Times, serif;
+         }
+         .sundayschool {
+            margin-top: -33.5%;
+            margin-left: 10px;
+            h2 {
+               font-size: 30px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 20px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+         .secondservice {
+            margin-top: -33.5%;
+            margin-left: 15%;
+            h2 {
+               font-size: 30px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 20px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+      }
+      .youngadults {
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .men {
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .woman {
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .seniors {
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      footer {
+         width: 100vw;
+         height: 15vh;
+         margin-left: 0.4vw;
+         margin-top: 5vh;
+         background-color: black;
+         color: white;
+      }
+   }
+
+   body::-webkit-scrollbar {
+      display: none;
+   }
+   body {
+      scrollbar-width: none; /* Firefox */
+   }
+}
+
+@media only screen and (min-width: 481px) {
+   html {
+      background-color: black;
+   }
+
+   body {
+      -ms-overflow-style: none; /* IE 11 */
+      scrollbar-width: hidden; /* Firefox 64 */
+      width: 101%;
+      position: absolute;
+      left: -1vw;
+      top: -1vw;
+      background: url("./cross.jfif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      nav {
+         display: inline-flex;
+         width: 101vw;
+         position: sticky;
+         left: 0;
+         top: 0;
+         background-color: rgba(255, 255, 255, 0.4);
+         border: 2px solid rgba(0, 0, 0, 0.5);
+         justify-content: space-evenly;
+         h2 {
+            width: 45%;
+            display: inline-flex;
+            margin-left: 2%;
+            padding-right: -5%;
+         }
+         ul {
+            width: 50%;
+            display: inline-flex;
+            list-style: none;
+            margin-top: 3%;
+            margin-left: -7%;
+            a {
+               color: black;
+               text-decoration: none;
+               li {
+                  margin-left: 10px;
+                  color: black;
+               }
+            }
+         }
+      }
+      .welcome {
+         height: 60vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 2vh;
+         text-align: center;
+         .welcomeheader {
+            color: white;
+            margin-top: -37vh;
+            font-size: 40px;
+         }
+         h3 {
+            color: rgb(240, 240, 240);
+            font-size: 23px;
+            margin-top: -20px;
+         }
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+         }
+      }
+      .mainservices {
+         background: white;
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         display: inline-flex;
+         flex-wrap: wrap;
+         h3 {
+            font-size: 45px;
+            margin-left: 12px;
+            margin-top: 8px;
+            width: 70%;
+            font-family: "Times New Roman", Times, serif;
+         }
+         .sundayschool {
+            margin-top: -23.5%;
+            margin-left: 10px;
+            h2 {
+               font-size: 30px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 20px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+         .secondservice {
+            margin-top: -23.5%;
+            margin-left: 20%;
+            h2 {
+               font-size: 30px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 20px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+      }
+      .youngadults {
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .men {
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .woman {
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .seniors {
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      footer {
+         width: 100vw;
+         height: 15vh;
+         margin-left: 0.4vw;
+         margin-top: 5vh;
+         background-color: black;
+         color: white;
+      }
+   }
+
+   body::-webkit-scrollbar {
+      display: none;
+   }
+   body {
+      scrollbar-width: none; /* Firefox */
+   }
+}
+
+@media only screen and (min-width: 769px) {
+   html {
+      background-color: black;
+   }
+
+   body {
+      -ms-overflow-style: none; /* IE 11 */
+      scrollbar-width: hidden; /* Firefox 64 */
+      width: 101%;
+      position: absolute;
+      left: -1vw;
+      top: -1vw;
+      background: url("./cross.jfif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline-flex;
+      flex-wrap: wrap;
+      nav {
+         display: inline-flex;
+         width: 101vw;
+         position: sticky;
+         left: 0;
+         top: 0;
+         background-color: rgba(255, 255, 255, 0.4);
+         border: 2px solid rgba(0, 0, 0, 0.5);
+         h2 {
+            width: 45%;
+            display: inline-flex;
+            margin-left: 2%;
+            padding-right: -5%;
+         }
+         ul {
+            width: 50%;
+            display: inline-flex;
+            list-style: none;
+            margin-top: 3%;
+            margin-left: -7%;
+            a {
+               color: black;
+               text-decoration: none;
+               li {
+                  margin-left: 10px;
+                  color: black;
+               }
+            }
+         }
+      }
+      .welcome {
+         height: 60vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 2vh;
+         text-align: center;
+         .welcomeheader {
+            color: white;
+            margin-top: -37vh;
+            font-size: 50px;
+         }
+         h3 {
+            color: rgb(240, 240, 240);
+            font-size: 23px;
+            margin-top: -20px;
+         }
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+         }
+      }
+      .mainservices {
+         background: white;
+         height: 50vh;
+         width: 90vw;
+         margin-left: 5vw;
+         margin-right: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         display: inline-flex;
+         flex-wrap: wrap;
+         h3 {
+            font-size: 45px;
+            margin-left: 12px;
+            margin-top: 8px;
+            width: 100%;
+            font-family: "Times New Roman", Times, serif;
+         }
+         .sundayschool {
+            margin-top: -17%;
+            margin-left: 10px;
+            h2 {
+               font-size: 30px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 20px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+         .secondservice {
+            margin-top: -17%;
+            margin-left: 20%;
+            h2 {
+               font-size: 30px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 20px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+      }
+      .youngadults {
+         height: 50vh;
+         width: 44vw;
+         margin-left: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .men {
+         height: 50vh;
+         width: 44vw;
+         margin-left: -3vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .woman {
+         height: 50vh;
+         width: 44vw;
+         margin-left: 5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .seniors {
+         height: 50vh;
+         width: 44vw;
+         margin-left: -3vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      footer {
+         width: 100vw;
+         height: 15vh;
+         margin-left: 0.4vw;
+         margin-top: 5vh;
+         background-color: black;
+         color: white;
+      }
+   }
+
+   body::-webkit-scrollbar {
+      display: none;
+   }
+   body {
+      scrollbar-width: none; /* Firefox */
+   }
+}
+
+@media only screen and (min-width: 1024) {
+   html {
+      background-color: black;
+   }
+
+   body {
+      -ms-overflow-style: none; /* IE 11 */
+      scrollbar-width: hidden; /* Firefox 64 */
+      width: 101%;
+      position: absolute;
+      left: -1vw;
+      top: -1vw;
+      background: lightgray;
+      background: url("./cross.jfif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline-flex;
+      flex-wrap: wrap;
+      nav {
+         display: inline-flex;
+         width: 101vw;
+         position: sticky;
+         left: 0;
+         top: 0;
+         background-color: rgba(255, 255, 255, 0.4);
+         border: 2px solid rgba(0, 0, 0, 0.5);
+         justify-content: space-evenly;
+         h2 {
+            width: 50%;
+            display: inline-flex;
+            margin-left: 2%;
+            padding-right: 3%;
+         }
+         ul {
+            width: 50%;
+            display: inline-flex;
+            list-style: none;
+            margin-top: 2%;
+            a {
+               color: black;
+               text-decoration: none;
+               li {
+                  margin-left: 20px;
+                  color: black;
+               }
+            }
+         }
+      }
+      .welcome {
+         height: 90vh;
+         width: 98vw;
+         margin-left: 1.5vw;
+         margin-right: 1vw;
+         margin-top: 2vh;
+         text-align: center;
+         .welcomeheader {
+            color: white;
+            margin-top: -50vh;
+            font-size: 45px;
+         }
+         h3 {
+            color: rgb(240, 240, 240);
+            font-size: 25px;
+            margin-top: -30px;
+         }
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+         }
+      }
+      .mainservices {
+         background: white;
+         width: 45vw;
+         height: 25vw;
+         margin-left: 1.5vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         display: inline-flex;
+         flex-wrap: wrap;
+         h3 {
+            font-size: 45px;
+            margin-left: 12px;
+            margin-top: 8px;
+            width: 70%;
+            font-family: "Times New Roman", Times, serif;
+         }
+         .sundayschool {
+            margin-top: -20.5%;
+            margin-left: 10px;
+            h2 {
+               font-size: 30px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 20px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+         .secondservice {
+            margin-top: -20.5%;
+            margin-left: 20%;
+            h2 {
+               font-size: 30px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 20px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+      }
+      .youngadults {
+         width: 51vw;
+         height: 27vw;
+         margin-left: 2vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 43%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 53%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .men {
+         width: 47vw;
+         height: 35vw;
+         margin-left: 1.2vw;
+         margin-top: -2vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 30%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 40%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .woman {
+         width: 50.5vw;
+         height: 33.5vw;
+         margin-left: 1vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 33%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 43%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      footer {
+         width: 100vw;
+         height: 15vh;
+         margin-left: 0.4vw;
+         margin-top: 5vh;
+         background-color: black;
+         color: white;
+      }
+   }
+
+   body::-webkit-scrollbar {
+      display: none;
+   }
+   body {
+      scrollbar-width: none; /* Firefox */
+   }
+}
+
+@media only screen and (min-width: 1200px) {
+   html {
+      background-color: black;
+   }
+
+   body {
+      -ms-overflow-style: none; /* IE 11 */
+      scrollbar-width: hidden; /* Firefox 64 */
+      width: 101%;
+      position: absolute;
+      left: -1vw;
+      top: -1vw;
+      background: lightgray;
+      background: url("./cross.jfif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline-flex;
+      flex-wrap: wrap;
+      nav {
+         display: inline-flex;
+         width: 101vw;
+         position: sticky;
+         left: 0;
+         top: 0;
+         background-color: rgba(255, 255, 255, 0.4);
+         border: 2px solid rgba(0, 0, 0, 0.5);
+         justify-content: space-evenly;
+         h2 {
+            width: 50%;
+            display: inline-flex;
+            margin-left: 2%;
+            padding-right: 18%;
+         }
+         ul {
+            width: 50%;
+            display: inline-flex;
+            list-style: none;
+            margin-top: 2%;
+            a {
+               color: black;
+               text-decoration: none;
+               li {
+                  margin-left: 20px;
+                  color: black;
+               }
+            }
+         }
+      }
+      .welcome {
+         height: 90vh;
+         width: 98vw;
+         margin-left: 1.5vw;
+         margin-right: 1vw;
+         margin-top: 2vh;
+         text-align: center;
+         .welcomeheader {
+            color: white;
+            margin-top: -50vh;
+            font-size: 75px;
+         }
+         h3 {
+            color: rgb(240, 240, 240);
+            font-size: 35px;
+            margin-top: -50px;
+         }
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+         }
+      }
+      .mainservices {
+         background: white;
+         width: 45vw;
+         height: 25vw;
+         margin-left: 1.5vw;
+         margin-right: 1vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         display: inline-flex;
+         flex-wrap: wrap;
+         h3 {
+            font-size: 45px;
+            margin-left: 12px;
+            margin-top: 8px;
+            width: 70%;
+            font-family: "Times New Roman", Times, serif;
+         }
+         .sundayschool {
+            margin-top: -25.5%;
+            margin-left: 10px;
+            h2 {
+               font-size: 35px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 25px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+         .secondservice {
+            margin-top: -25.5%;
+            margin-left: 20%;
+            h2 {
+               font-size: 35px;
+               margin-left: 5px;
+            }
+            .time {
+               font-size: 25px;
+               font-weight: 100;
+               margin-top: -12px;
+               margin-left: 9px;
+            }
+         }
+      }
+      .youngadults {
+         width: 49vw;
+         height: 27vw;
+         margin-left: 2vw;
+         margin-right: 1vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 31%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 41%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .men {
+         width: 45vw;
+         height: 28.5vw;
+         margin-left: 1.5vw;
+         margin-right: 1vw;
+         margin-top: -2vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 30%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 40%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      .woman {
+         width: 49vw;
+         height: 27vw;
+         margin-left: 2vw;
+         margin-right: 1vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 31%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 41%;
+            color: rgb(236, 225, 225);
+         }
+      }
+
+      .seniors {
+         width: 97vw;
+         height: 30vw;
+         margin-left: 2vw;
+         margin-right: 1vw;
+         margin-top: 1vh;
+         border-radius: 20px;
+         // display: inline-flex;
+         // flex-wrap: wrap;
+         img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+         h2 {
+            font-size: 35px;
+            margin-left: 5px;
+            color: white;
+            position: relative;
+            bottom: 31%;
+         }
+         .time {
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 9px;
+            position: relative;
+            bottom: 41%;
+            color: rgb(236, 225, 225);
+         }
+      }
+      
+      footer {
+         width: 100vw;
+         height: 15vh;
+         margin-left: 0.4vw;
+         margin-top: 5vh;
+         background-color: black;
+         color: white;
+      }
+   }
+
+   body::-webkit-scrollbar {
+      display: none;
+   }
+   body {
+      scrollbar-width: none; /* Firefox */
+   }
+}
