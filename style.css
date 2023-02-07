@@ -86,7 +86,7 @@
     font-family: "Times New Roman", Times, serif;
   }
   body .mainservices .sundayschool {
-    margin-top: -40.5%;
+    margin-top: -45.5%;
     margin-left: 10px;
   }
   body .mainservices .sundayschool h2 {
@@ -100,7 +100,7 @@
     margin-left: 9px;
   }
   body .mainservices .secondservice {
-    margin-top: -40.5%;
+    margin-top: -45.5%;
     margin-left: 15%;
   }
   body .mainservices .secondservice h2 {
@@ -131,14 +131,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 43%;
+    bottom: 40%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 53%;
+    bottom: 50%;
     color: rgb(236, 225, 225);
   }
   body .men {
@@ -159,14 +159,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 43%;
+    bottom: 40%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 53%;
+    bottom: 50%;
     color: rgb(236, 225, 225);
   }
   body .woman {
@@ -187,14 +187,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 43%;
+    bottom: 40%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 53%;
+    bottom: 50%;
     color: rgb(236, 225, 225);
   }
   body .seniors {
@@ -215,14 +215,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 43%;
+    bottom: 40%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 53%;
+    bottom: 50%;
     color: rgb(236, 225, 225);
   }
   body footer {
