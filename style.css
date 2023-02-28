@@ -178,14 +178,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 31%;
+    bottom: 33%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 44%;
+    bottom: 46%;
     color: white;
   }
   body .men {
@@ -234,14 +234,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 29%;
+    bottom: 33%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 42%;
+    bottom: 46%;
     color: rgb(236, 225, 225);
   }
   body .seniors {
@@ -262,14 +262,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 29%;
+    bottom: 33%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 42%;
+    bottom: 46%;
     color: rgb(236, 225, 225);
   }
   body footer {
