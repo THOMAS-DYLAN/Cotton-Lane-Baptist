@@ -73,11 +73,13 @@
     color: white;
     margin-top: 50vh;
     font-size: 45px;
+    z-index: 2;
   }
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
     font-size: 30px;
     margin-top: 28vh;
+    z-index: 2;
   }
   body .welcome img {
     height: 100%;
