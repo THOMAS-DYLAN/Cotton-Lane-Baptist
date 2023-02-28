@@ -70,7 +70,6 @@
     text-align: center;
   }
   body .welcome .welcomeheader {
-    display: block;
     color: white;
     margin-top: -50vh;
     font-size: 45px;
@@ -362,11 +361,13 @@
     color: white;
     margin-top: -50vh;
     font-size: 45px;
+    position: relative;
   }
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
     font-size: 30px;
     margin-top: 28vh;
+    position: relative;
   }
   body .welcome img {
     height: 100%;
@@ -648,11 +649,13 @@
     color: white;
     margin-top: -50vh;
     font-size: 50px;
+    position: relative;
   }
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
     font-size: 50px;
     margin-top: 27vh;
+    position: relative;
   }
   body .welcome img {
     height: 100%;
@@ -924,11 +927,13 @@
     color: white;
     margin-top: -65vh;
     font-size: 75px;
+    position: relative;
   }
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
     font-size: 70px;
     margin-top: 25vh;
+    position: relative;
   }
   body .welcome img {
     height: 100%;
@@ -1173,11 +1178,13 @@
     color: white;
     margin-top: -65vh;
     font-size: 75px;
+    position: relative;
   }
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
     font-size: 70px;
     margin-top: 25vh;
+    position: relative;
   }
   body .welcome img {
     height: 100%;
