@@ -17,7 +17,7 @@ $(".expand").click(
             "margin-top": "10%",
             "display": "inline",
             "position": "absolute",
-            "left": '0'
+            "left": "2%"
          });
          hidden ? $("nav").css({
             "display": "inline-flex",
@@ -33,7 +33,7 @@ $(".expand").click(
          }) : $("nav").css({
             "display": "inline-flex",
             "width": "101vw",
-            "height": "35vw",
+            "height": "35.5vw",
             "position": "sticky",
             "left": "0",
             "top": "0",
@@ -42,29 +42,10 @@ $(".expand").click(
             "justify-content": "space-evenly",
             "z-index": "5"
          })
+         hidden ? $(".welcome").css({
+            "margin-top": "2vh"
+         }) : $(".welcome").css({
+            "margin-top": "-20.5vh"
+         })
    }
 )
-
-$("li").click(()=>{
-   hidden = true;
-   $(".links").css({
-      'visibility': 'hidden',
-      "width": "50%",
-      "display": "inline-flex",
-      "list-style": "none",
-      "margin-left": "-7%",
-      "font-size": "15px",
-   })
-   $("nav").css({
-      "display": "inline-flex",
-      "width": "101vw",
-      "height": "10vh",
-      "position": "sticky",
-      "left": "0",
-      "top": "0",
-      "background-color": "rgba(255, 255, 255, 0.4)",
-      "border": "2px solid rgba(0, 0, 0, 0.5)",
-      "justify-content": "space-evenly",
-      "z-index": "5"
-   })
-})
