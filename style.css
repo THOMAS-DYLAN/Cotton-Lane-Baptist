@@ -177,14 +177,14 @@
     font-size: 35px;
     margin-left: 5px;
     color: white;
-    margin-bottom: 40%;
     position: relative;
+    bottom: 30%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
-    margin-bottom: 45%;
+    margin-bottom: 49%;
     position: relative;
     color: rgb(236, 225, 225);
   }
