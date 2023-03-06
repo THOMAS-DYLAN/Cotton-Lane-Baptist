@@ -88,7 +88,7 @@
   }
   body .mainservices {
     background: white;
-    height: 50vh;
+    height: 40vh;
     width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -105,7 +105,7 @@
     font-family: "Times New Roman", Times, serif;
   }
   body .mainservices .sundayschool {
-    margin-top: -12.5%;
+    margin-top: -10.5%;
     width: 50%;
   }
   body .mainservices .sundayschool h2 {
@@ -119,7 +119,7 @@
     margin-left: 19px;
   }
   body .mainservices .secondservice {
-    margin-top: -12.5%;
+    margin-top: -10.5%;
     width: 50%;
   }
   body .mainservices .secondservice h2 {
@@ -178,15 +178,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 45%;
+    bottom: 26%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 59%;
-    color: rgb(236, 225, 225);
+    bottom: 35%;
+    color: yellow;
   }
   body .men {
     height: 40vh;
@@ -206,15 +206,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 45%;
+    bottom: 26%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 59%;
-    color: rgb(236, 225, 225);
+    bottom: 35%;
+    color: yellow;
   }
   body .woman {
     height: 40vh;
@@ -234,15 +234,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 45%;
+    bottom: 26%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 59%;
-    color: rgb(236, 225, 225);
+    bottom: 35%;
+    color: yellow;
   }
   body .seniors {
     height: 40vh;
@@ -262,15 +262,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 45%;
+    bottom: 26%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 59%;
-    color: rgb(236, 225, 225);
+    bottom: 35%;
+    color: yellow;
   }
   body footer {
     width: 100vw;
@@ -1169,7 +1169,7 @@
   body .welcome {
     height: 90vh;
     width: 98vw;
-    margin-left: 1.5vw;
+    margin-left: 2.5vw;
     margin-right: 1vw;
     margin-top: 2vh;
     text-align: center;
@@ -1195,7 +1195,7 @@
     background: white;
     width: 47.5vw;
     height: 30vw;
-    margin-left: 1.5vw;
+    margin-left: 2.5vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1282,20 +1282,20 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 24%;
+    bottom: 18%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: rgb(236, 225, 225);
+    bottom: 23%;
+    color: yellow;
   }
   body .men {
     width: 47.5vw;
     height: 27vw;
-    margin-left: 1.5vw;
+    margin-left: 2.5vw;
     margin-right: 2vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1310,15 +1310,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 27%;
+    bottom: 21%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 32%;
-    color: rgb(236, 225, 225);
+    bottom: 27%;
+    color: yellow;
   }
   body .woman {
     width: 47.5vw;
@@ -1337,20 +1337,20 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 27%;
+    bottom: 21%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 32%;
-    color: rgb(225, 225, 225);
+    bottom: 27%;
+    color: yellow;
   }
   body .seniors {
     width: 98vw;
     height: 30vw;
-    margin-left: 1.5vw;
+    margin-left: 2.5vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1365,15 +1365,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 23%;
+    bottom: 18%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 27%;
-    color: rgb(236, 225, 225);
+    bottom: 22%;
+    color: yellow;
   }
   body footer {
     width: 100vw;
