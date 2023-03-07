@@ -1,12 +1,19 @@
-body {
+html {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+html body {
   background-color: gray;
   text-align: center;
   height: 100%;
+  width: 100%;
+  margin-top: -0.1vh;
+  margin-left: -1vh;
 }
-body h1 {
-  position: absolute;
-  top: 35%;
-  left: 10%;
-  width: 80%;
-  font-size: 60px;
+html body iframe {
+  height: 80vh;
+  width: 75vw;
+  margin-top: 10vh;
+  background-color: red;
 }/*# sourceMappingURL=broadcast.css.map */

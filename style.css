@@ -62,7 +62,7 @@
     color: black;
   }
   body .welcome {
-    height: 35vh;
+    height: 60vh;
     width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -178,14 +178,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 19%;
+    bottom: 26%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 35%;
     color: yellow;
   }
   body .men {
@@ -206,14 +206,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 19%;
+    bottom: 26%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 35%;
     color: yellow;
   }
   body .woman {
@@ -234,14 +234,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 19%;
+    bottom: 26%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 35%;
     color: yellow;
   }
   body .seniors {
@@ -262,14 +262,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 19%;
+    bottom: 26%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 35%;
     color: yellow;
   }
   body footer {
