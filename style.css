@@ -47,7 +47,7 @@
   body nav ul {
     visibility: hidden;
     list-style: none;
-    margin-top: 30.3vh;
+    margin-top: 10.1vh;
     width: 101vw;
     display: inline;
     position: absolute;
@@ -336,7 +336,7 @@
   body nav ul {
     visibility: hidden;
     list-style: none;
-    margin-top: 35.3vh;
+    margin-top: 15.1vh;
     width: 101vw;
     display: inline;
     position: absolute;
@@ -617,7 +617,7 @@
     width: 50%;
     display: inline-flex;
     position: absolute;
-    top: 5%;
+    top: 3%;
     left: 3%;
   }
   body nav ul {
@@ -918,9 +918,8 @@
     visibility: visible;
     list-style: none;
     position: absolute;
-    top: 5vh;
+    top: 3%;
     left: 30%;
-    background: red;
   }
   body nav ul a {
     color: black;
@@ -930,7 +929,6 @@
   body nav ul a li {
     margin-left: 20px;
     color: black;
-    background: red;
   }
   body .welcome {
     height: 90vh;
@@ -1146,7 +1144,7 @@
   }
   body nav {
     display: inline-flex;
-    height: 10vh;
+    height: 15vh;
     position: absolute;
     left: 0;
     background-color: rgba(255, 255, 255, 0.4);
