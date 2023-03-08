@@ -1191,7 +1191,6 @@
          height: 10vh;
          position: absolute;
          left: 0;
-         top: 0;
          background-color: rgba(255, 255, 255, 0.4);
          border: 2px solid rgba(0, 0, 0, 0.5);
          z-index: 2000;
@@ -1232,14 +1231,14 @@
          text-align: center;
          .welcomeheader {
             color: white;
-            margin-top: -65vh;
+            margin-top: -70vh;
             font-size: 75px;
             position: relative;
          }
          .nameheader {
             color: rgb(240, 240, 240);
             font-size: 70px;
-            margin-top: 22vh;
+            margin-top: 20vh;
             position: relative;
          }
          img {
