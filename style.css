@@ -1139,6 +1139,7 @@
   body nav {
     display: inline-flex;
     height: 15vh;
+    wiidth: 101.5vw;
     position: absolute;
     left: 0;
     background-color: rgba(255, 255, 255, 0.4);
@@ -1152,17 +1153,19 @@
     width: 50%;
     display: inline-flex;
     margin-left: 2%;
-    margin-top: 2.5vh;
     padding-right: 18%;
     position: absolute;
+    top: 2vh;
     left: 1%;
   }
   body nav ul {
     width: 50%;
     display: inline-flex;
     visibility: visible;
-    list-style: none;
+    list-style: none;    
     margin-left: 20%;
+    position: absolute;
+    top: 2vh;
   }
   body nav ul a {
     color: black;
@@ -1175,7 +1178,7 @@
   body .welcome {
     height: 90vh;
     width: 98vw;
-    margin-left: 2vw;
+    margin-left: 2.5vw;
     margin-right: 1vw;
     margin-top: 2vh;
     text-align: center;
