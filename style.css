@@ -32,7 +32,7 @@
     flex-wrap: nowrap;
     font-size: 20px;
     position: absolute;
-    top: 7.5%;
+    top: 7vh;
     left: 5%;
   }
   body nav .expand {
@@ -40,7 +40,7 @@
     color: black;
     font-size: 30px;
     position: absolute;
-    top: 5%;
+    top: 7vh;
     right: 5%;
   }
   body nav .expand:hover {
