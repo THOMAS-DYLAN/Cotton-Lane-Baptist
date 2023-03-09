@@ -1,3 +1,11 @@
+@keyframes arrow {
+  100% {
+    color: white;
+  }
+  0% {
+    color: black;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   html {
@@ -40,7 +48,7 @@
     color: black;
     font-size: 30px;
     position: absolute;
-    top: 6vh;
+    top: 5vh;
     right: 5%;
   }
   body nav .expand:hover {
@@ -1139,12 +1147,12 @@
   body nav {
     display: inline-flex;
     height: 15vh;
-    wiidth: 101.5vw;
     position: absolute;
     left: 0;
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(0, 0, 0, 0.5);
     z-index: 2000;
+    width: 103vw;
   }
   body nav .expand {
     display: none;
@@ -1162,10 +1170,10 @@
     width: 50%;
     display: inline-flex;
     visibility: visible;
-    list-style: none;    
-    margin-left: 20%;
+    list-style: none;
+    margin-left: 35%;
     position: absolute;
-    top: 2vh;
+    top: -1vh;
   }
   body nav ul a {
     color: black;
@@ -1178,7 +1186,7 @@
   body .welcome {
     height: 90vh;
     width: 98vw;
-    margin-left: 2.5vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 2vh;
     text-align: center;
@@ -1204,7 +1212,7 @@
     background: white;
     width: 47.5vw;
     height: 30vw;
-    margin-left: 2vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1304,7 +1312,7 @@
   body .men {
     width: 47.5vw;
     height: 27vw;
-    margin-left: 2vw;
+    margin-left: 3vw;
     margin-right: 2vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1359,7 +1367,7 @@
   body .seniors {
     width: 98vw;
     height: 30vw;
-    margin-left: 2vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1394,13 +1402,5 @@
   }
   body::-webkit-scrollbar {
     display: none;
-  }
-}
-@keyframes arrow {
-  100% {
-    color: white;
-  }
-  0% {
-    color: black;
   }
 }/*# sourceMappingURL=style.css.map */
