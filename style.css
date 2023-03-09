@@ -31,16 +31,16 @@
     display: inline-flex;
     flex-wrap: nowrap;
     font-size: 20px;
-    margin-top: 2.5%;
     position: absolute;
+    top: 7.5%;
     left: 5%;
   }
   body nav .expand {
     display: default;
     color: black;
     font-size: 30px;
-    margin-top: -1%;
     position: absolute;
+    top: 5%;
     right: 5%;
   }
   body nav .expand:hover {
@@ -184,7 +184,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 11%;
+    bottom: 16%;
   }
   body .youngadults .time {
     font-size: 25px;
@@ -212,7 +212,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 11%;
+    bottom: 16%;
   }
   body .men .time {
     font-size: 25px;
@@ -240,7 +240,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 11%;
+    bottom: 16%;
   }
   body .woman .time {
     font-size: 25px;
@@ -268,7 +268,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 11%;
+    bottom: 16%;
   }
   body .seniors .time {
     font-size: 25px;
@@ -320,8 +320,8 @@
   body nav .expand {
     color: black;
     font-size: 40px;
-    margin-top: 2.5%;
     position: absolute;
+    top: 7.5%;
     right: 5%;
   }
   body nav .expand:hover {
@@ -1391,5 +1391,13 @@
   }
   body::-webkit-scrollbar {
     display: none;
+  }
+}
+@keyframes arrow {
+  100% {
+    color: white;
+  }
+  0% {
+    color: black;
   }
 }/*# sourceMappingURL=style.css.map */
