@@ -1,10 +1,11 @@
+
 @media only screen and (max-width: 480px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: hidden; /* Firefox 64 */
+    -ms-overflow-style: none;
+    scrollbar-width: hidden;
     width: 101%;
     position: absolute;
     left: -1vw;
@@ -12,6 +13,7 @@
     background: url("./imgs/cross.jfif");
     background-repeat: no-repeat;
     background-size: cover;
+    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
@@ -182,14 +184,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 26%;
+    bottom: 11%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 35%;
+    bottom: 25%;
     color: yellow;
   }
   body .men {
@@ -210,14 +212,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 26%;
+    bottom: 11%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 35%;
+    bottom: 25%;
     color: yellow;
   }
   body .woman {
@@ -238,14 +240,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 26%;
+    bottom: 11%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 35%;
+    bottom: 25%;
     color: yellow;
   }
   body .seniors {
@@ -266,14 +268,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 26%;
+    bottom: 11%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 35%;
+    bottom: 25%;
     color: yellow;
   }
   body footer {
@@ -287,17 +289,14 @@
   body::-webkit-scrollbar {
     display: none;
   }
-  body {
-    scrollbar-width: none; /* Firefox */
-  }
 }
 @media only screen and (min-width: 481px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: hidden; /* Firefox 64 */
+    -ms-overflow-style: none;
+    scrollbar-width: hidden;
     width: 101%;
     position: absolute;
     left: -1vw;
@@ -305,6 +304,7 @@
     background: url("./imgs/cross.jfif");
     background-repeat: no-repeat;
     background-size: cover;
+    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
@@ -578,17 +578,14 @@
   body::-webkit-scrollbar {
     display: none;
   }
-  body {
-    scrollbar-width: none; /* Firefox */
-  }
 }
 @media only screen and (min-width: 769px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: hidden; /* Firefox 64 */
+    -ms-overflow-style: none;
+    scrollbar-width: hidden;
     width: 101%;
     position: absolute;
     left: -1vw;
@@ -598,6 +595,7 @@
     background-size: cover;
     display: inline-flex;
     flex-wrap: wrap;
+    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
@@ -868,17 +866,14 @@
   body::-webkit-scrollbar {
     display: none;
   }
-  body {
-    scrollbar-width: none; /* Firefox */
-  }
 }
 @media only screen and (min-width: 1024px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: hidden; /* Firefox 64 */
+    -ms-overflow-style: none;
+    scrollbar-width: hidden;
     width: 101%;
     position: absolute;
     left: -1vw;
@@ -889,6 +884,7 @@
     background-size: cover;
     display: inline-flex;
     flex-wrap: wrap;
+    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
@@ -1120,17 +1116,14 @@
   body::-webkit-scrollbar {
     display: none;
   }
-  body {
-    scrollbar-width: none; /* Firefox */
-  }
 }
 @media only screen and (min-width: 1200px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: hidden; /* Firefox 64 */
+    -ms-overflow-style: none;
+    scrollbar-width: hidden;
     width: 102%;
     position: absolute;
     left: -1vw;
@@ -1141,6 +1134,7 @@
     background-size: cover;
     display: inline-flex;
     flex-wrap: wrap;
+    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
@@ -1397,8 +1391,5 @@
   }
   body::-webkit-scrollbar {
     display: none;
-  }
-  body {
-    scrollbar-width: none; /* Firefox */
   }
 }/*# sourceMappingURL=style.css.map */
