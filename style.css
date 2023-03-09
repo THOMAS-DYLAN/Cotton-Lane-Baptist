@@ -32,7 +32,7 @@
     flex-wrap: nowrap;
     font-size: 20px;
     position: absolute;
-    top: 8vh;
+    top: 7vh;
     left: 5%;
   }
   body nav .expand {
@@ -40,7 +40,7 @@
     color: black;
     font-size: 30px;
     position: absolute;
-    top: 11vh;
+    top: 7vh;
     right: 5%;
   }
   body nav .expand:hover {
@@ -184,7 +184,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 16%;
+    bottom: 17%;
   }
   body .youngadults .time {
     font-size: 25px;
@@ -212,7 +212,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 16%;
+    bottom: 17%;
   }
   body .men .time {
     font-size: 25px;
@@ -240,7 +240,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 16%;
+    bottom: 17%;
   }
   body .woman .time {
     font-size: 25px;
@@ -268,7 +268,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 16%;
+    bottom: 17%;
   }
   body .seniors .time {
     font-size: 25px;
