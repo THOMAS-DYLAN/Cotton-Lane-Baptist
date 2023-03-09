@@ -645,6 +645,7 @@
     width: 88px;
     color: black;
     margin-left: 5px;
+    cursor: default;
   }
   body nav ul a li#wom {
     width: 108px;
