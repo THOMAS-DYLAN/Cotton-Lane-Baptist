@@ -1,19 +1,10 @@
-@keyframes arrow {
-  100% {
-    color: white;
-  }
-  0% {
-    color: black;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: hidden; /* Firefox 64 */
     width: 101%;
     position: absolute;
     left: -1vw;
@@ -21,17 +12,16 @@
     background: url("./imgs/cross.jfif");
     background-repeat: no-repeat;
     background-size: cover;
-    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
-    width: 101.5vw;
+    width: 101vw;
     height: 10vh;
     position: sticky;
     left: 0;
     top: 0;
     background-color: rgba(255, 255, 255, 0.4);
-    border: none;
+    border: 2px solid rgba(0, 0, 0, 0.5);
     justify-content: space-evenly;
     z-index: 5;
   }
@@ -40,30 +30,26 @@
     flex-wrap: nowrap;
     font-size: 20px;
     position: absolute;
-    top: 3.5vh;
     left: 5%;
   }
   body nav .expand {
     display: default;
     color: black;
-    font-size: 30px;
+    font-size: 40px;
     position: absolute;
-    top: 3vh;
     right: 5%;
+    top: 8%;
   }
   body nav .expand:hover {
     cursor: pointer;
   }
   body nav ul {
     visibility: hidden;
+    width: 50%;
+    display: inline-flex;
     list-style: none;
-    width: 101vw;
-    display: inline;
-    position: absolute;
-    top: 10.1vh;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    margin-left: -7%;
+    font-size: 15px;
   }
   body nav ul a {
     color: black;
@@ -72,27 +58,27 @@
   body nav ul a li {
     margin-top: 3px;
     font-size: 15px;
-    margin-left: -1%;
+    margin-left: 5%;
     color: black;
   }
   body .welcome {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    height: 60vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 2vh;
     text-align: center;
   }
   body .welcome .welcomeheader {
     color: white;
-    margin-top: -40vh;
+    margin-top: -50vh;
     font-size: 45px;
     position: relative;
   }
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
-    font-size: 24px;
-    margin-top: 23vh;
+    font-size: 30px;
+    margin-top: 28vh;
     position: relative;
   }
   body .welcome img {
@@ -103,9 +89,9 @@
   body .mainservices {
     background: white;
     height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
     display: inline-flex;
@@ -176,9 +162,9 @@
   }
   body .youngadults {
     height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -192,21 +178,21 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 26%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 35%;
     color: yellow;
   }
   body .men {
     height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -220,21 +206,21 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 26%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 35%;
     color: yellow;
   }
   body .woman {
     height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -248,21 +234,21 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 26%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 35%;
     color: yellow;
   }
   body .seniors {
     height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -276,14 +262,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 26%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 35%;
     color: yellow;
   }
   body footer {
@@ -297,14 +283,17 @@
   body::-webkit-scrollbar {
     display: none;
   }
+  body {
+    scrollbar-width: none; /* Firefox */
+  }
 }
 @media only screen and (min-width: 481px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: hidden; /* Firefox 64 */
     width: 101%;
     position: absolute;
     left: -1vw;
@@ -312,61 +301,57 @@
     background: url("./imgs/cross.jfif");
     background-repeat: no-repeat;
     background-size: cover;
-    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
-    width: 101.5vw;
-    height: 15vh;
+    width: 101vw;
+    height: 10vh;
     position: sticky;
     left: 0;
     top: 0;
     background-color: rgba(255, 255, 255, 0.4);
-    border: none;
+    border: 2px solid rgba(0, 0, 0, 0.5);
     z-index: 5;
   }
   body nav .expand {
     color: black;
     font-size: 40px;
     position: absolute;
-    top: 7.5%;
     right: 5%;
+    top: 8%;
   }
   body nav .expand:hover {
     cursor: pointer;
   }
   body nav h2 {
     display: inline-flex;
-    margin-top: 5%;
     position: absolute;
     left: 5%;
+    top: -10%;
   }
   body nav ul {
     visibility: hidden;
+    width: 50%;
+    display: inline-flex;
     list-style: none;
-    width: 101vw;
-    display: inline;
-    position: absolute;
-    top: 5.1vh;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    margin-top: -3%;
+    margin-left: -6%;
   }
   body nav ul a {
     color: black;
     text-decoration: none;
   }
   body nav ul a li {
-    margin-top: 3px;
+    margin-left: 7%;
+    margin-top: 5px;
     font-size: 15px;
-    margin-left: -1%;
     color: black;
   }
   body .welcome {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    height: 60vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 2vh;
     text-align: center;
     border-radius: 17px;
@@ -374,14 +359,14 @@
   }
   body .welcome .welcomeheader {
     color: white;
-    margin-top: -15vh;
+    margin-top: -50vh;
     font-size: 45px;
     position: relative;
   }
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
     font-size: 30px;
-    margin-top: -3vh;
+    margin-top: 28vh;
     position: relative;
   }
   body .welcome img {
@@ -392,9 +377,9 @@
   body .mainservices {
     background: white;
     height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
     display: inline-flex;
@@ -409,7 +394,7 @@
   }
   body .mainservices .sundayschool {
     margin-top: -10.5%;
-    width: 48%;
+    width: 50%;
   }
   body .mainservices .sundayschool h2 {
     font-size: 25px;
@@ -437,7 +422,7 @@
   }
   body .mainservices .event1 {
     margin-top: -5.5%;
-    width: 48%;
+    width: 50%;
   }
   body .mainservices .event1 h2 {
     font-size: 25px;
@@ -465,9 +450,9 @@
   }
   body .youngadults {
     height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -481,21 +466,21 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 22%;
+    bottom: 36%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: yellow;
+    bottom: 47%;
+    color: rgb(236, 225, 225);
   }
   body .men {
     height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -509,21 +494,21 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 22%;
+    bottom: 37%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: yellow;
+    bottom: 47%;
+    color: rgb(236, 225, 225);
   }
   body .woman {
     height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -537,21 +522,21 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 22%;
+    bottom: 37%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: yellow;
+    bottom: 47%;
+    color: rgb(236, 225, 225);
   }
   body .seniors {
     height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -565,15 +550,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 22%;
+    bottom: 37%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: yellow;
+    bottom: 47%;
+    color: rgb(236, 225, 225);
   }
   body footer {
     width: 100vw;
@@ -586,14 +571,17 @@
   body::-webkit-scrollbar {
     display: none;
   }
+  body {
+    scrollbar-width: none; /* Firefox */
+  }
 }
 @media only screen and (min-width: 769px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: hidden; /* Firefox 64 */
     width: 101%;
     position: absolute;
     left: -1vw;
@@ -603,7 +591,6 @@
     background-size: cover;
     display: inline-flex;
     flex-wrap: wrap;
-    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
@@ -623,8 +610,8 @@
     width: 50%;
     display: inline-flex;
     position: absolute;
-    top: 3%;
-    left: 3%;
+    left: 1%;
+    top: -28%;
   }
   body nav ul {
     width: 50%;
@@ -633,9 +620,7 @@
     list-style: none;
     margin-top: 1%;
     position: relative;
-    left: 65%;
-    background: transparent;
-    border: none;
+    right: -37%;
   }
   body nav ul a {
     color: black;
@@ -645,7 +630,6 @@
     width: 88px;
     color: black;
     margin-left: 5px;
-    cursor: default;
   }
   body nav ul a li#wom {
     width: 108px;
@@ -655,9 +639,9 @@
   }
   body .welcome {
     height: 60vh;
-    width: 95vw;
-    margin-left: 4vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 2vh;
     text-align: center;
   }
@@ -681,9 +665,9 @@
   body .mainservices {
     background: white;
     height: 50vh;
-    width: 95vw;
-    margin-left: 4vw;
-    margin-right: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
     display: inline-flex;
@@ -697,7 +681,7 @@
     font-family: "Times New Roman", Times, serif;
   }
   body .mainservices .sundayschool {
-    margin-top: -7%;
+    margin-top: -10.5%;
     width: 50%;
   }
   body .mainservices .sundayschool h2 {
@@ -711,7 +695,7 @@
     margin-left: 19px;
   }
   body .mainservices .secondservice {
-    margin-top: -7%;
+    margin-top: -10.5%;
     width: 50%;
   }
   body .mainservices .secondservice h2 {
@@ -754,9 +738,8 @@
   }
   body .youngadults {
     height: 50vh;
-    width: 45vw;
-    margin-left: 4vw;
-    margin-right: 1vw;
+    width: 44vw;
+    margin-left: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -770,21 +753,20 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 23%;
+    bottom: 43%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: yellow;
+    bottom: 53%;
+    color: rgb(236, 225, 225);
   }
   body .men {
     height: 50vh;
-    width: 45vw;
-    margin-left: 4vw;
-    margin-right: 1vw;
+    width: 44vw;
+    margin-left: -3vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -798,21 +780,20 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 23%;
+    bottom: 43%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: yellow;
+    bottom: 53%;
+    color: rgb(236, 225, 225);
   }
   body .woman {
     height: 50vh;
-    width: 45vw;
-    margin-left: 4vw;
-    margin-right: 1vw;
+    width: 44vw;
+    margin-left: 5vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -826,21 +807,20 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 23%;
+    bottom: 43%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: yellow;
+    bottom: 53%;
+    color: rgb(236, 225, 225);
   }
   body .seniors {
     height: 50vh;
-    width: 45vw;
-    margin-left: 4vw;
-    margin-right: 1vw;
+    width: 44vw;
+    margin-left: -3vw;
     margin-top: 1vh;
     border-radius: 20px;
   }
@@ -854,15 +834,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 23%;
+    bottom: 43%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
-    color: yellow;
+    bottom: 53%;
+    color: rgb(236, 225, 225);
   }
   body footer {
     width: 100vw;
@@ -875,14 +855,17 @@
   body::-webkit-scrollbar {
     display: none;
   }
+  body {
+    scrollbar-width: none; /* Firefox */
+  }
 }
 @media only screen and (min-width: 1024px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: hidden; /* Firefox 64 */
     width: 101%;
     position: absolute;
     left: -1vw;
@@ -893,7 +876,6 @@
     background-size: cover;
     display: inline-flex;
     flex-wrap: wrap;
-    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
@@ -913,7 +895,6 @@
     width: 50%;
     display: inline-flex;
     padding-right: 18%;
-    margin-top: 2.5vh;
     position: absolute;
     left: 1%;
   }
@@ -922,14 +903,13 @@
     display: inline-flex;
     visibility: visible;
     list-style: none;
+    margin-top: 1%;
     position: absolute;
-    top: 3%;
     left: 30%;
   }
   body nav ul a {
     color: black;
     text-decoration: none;
-    margin-top: 5vh;
   }
   body nav ul a li {
     margin-left: 20px;
@@ -978,7 +958,7 @@
     font-family: "Times New Roman", Times, serif;
   }
   body .mainservices .sundayschool {
-    margin-top: -8.5%;
+    margin-top: -10.5%;
     width: 50%;
   }
   body .mainservices .sundayschool h2 {
@@ -992,7 +972,7 @@
     margin-left: 19px;
   }
   body .mainservices .secondservice {
-    margin-top: -8.5%;
+    margin-top: -10.5%;
     width: 50%;
   }
   body .mainservices .secondservice h2 {
@@ -1125,14 +1105,17 @@
   body::-webkit-scrollbar {
     display: none;
   }
+  body {
+    scrollbar-width: none; /* Firefox */
+  }
 }
 @media only screen and (min-width: 1200px) {
   html {
     background-color: black;
   }
   body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: hidden; /* Firefox 64 */
     width: 102%;
     position: absolute;
     left: -1vw;
@@ -1143,17 +1126,17 @@
     background-size: cover;
     display: inline-flex;
     flex-wrap: wrap;
-    scrollbar-width: none;
   }
   body nav {
     display: inline-flex;
-    height: 15vh;
+    width: 102vw;
+    height: 10vh;
     position: absolute;
     left: 0;
+    top: 0;
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(0, 0, 0, 0.5);
     z-index: 2000;
-    width: 103vw;
   }
   body nav .expand {
     display: none;
@@ -1162,9 +1145,9 @@
     width: 50%;
     display: inline-flex;
     margin-left: 2%;
+    margin-top: 5vh;
     padding-right: 18%;
     position: absolute;
-    top: 2vh;
     left: 1%;
   }
   body nav ul {
@@ -1172,9 +1155,8 @@
     display: inline-flex;
     visibility: visible;
     list-style: none;
-    margin-left: 35%;
-    position: absolute;
-    top: -1vh;
+    margin-top: 3vh;
+    margin-left: 20%;
   }
   body nav ul a {
     color: black;
@@ -1187,21 +1169,21 @@
   body .welcome {
     height: 90vh;
     width: 98vw;
-    margin-left: 2vw;
+    margin-left: 2.5vw;
     margin-right: 1vw;
     margin-top: 2vh;
     text-align: center;
   }
   body .welcome .welcomeheader {
     color: white;
-    margin-top: -70vh;
+    margin-top: -65vh;
     font-size: 75px;
     position: relative;
   }
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
     font-size: 70px;
-    margin-top: 20vh;
+    margin-top: 25vh;
     position: relative;
   }
   body .welcome img {
@@ -1213,7 +1195,7 @@
     background: white;
     width: 47.5vw;
     height: 30vw;
-    margin-left: 2vw;
+    margin-left: 2.5vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1228,7 +1210,7 @@
     font-family: "Times New Roman", Times, serif;
   }
   body .mainservices .sundayschool {
-    margin-top: -8.5%;
+    margin-top: -10.5%;
     width: 50%;
   }
   body .mainservices .sundayschool h2 {
@@ -1242,7 +1224,7 @@
     margin-left: 19px;
   }
   body .mainservices .secondservice {
-    margin-top: -8.5%;
+    margin-top: -10.5%;
     width: 50%;
   }
   body .mainservices .secondservice h2 {
@@ -1256,7 +1238,7 @@
     margin-left: 19px;
   }
   body .mainservices .event1 {
-    margin-top: -2.5%;
+    margin-top: -5.5%;
     width: 50%;
   }
   body .mainservices .event1 h2 {
@@ -1270,7 +1252,7 @@
     margin-left: 19px;
   }
   body .mainservices .event2 {
-    margin-top: -2.5%;
+    margin-top: -5.5%;
     width: 50%;
   }
   body .mainservices .event2 h2 {
@@ -1313,7 +1295,7 @@
   body .men {
     width: 47.5vw;
     height: 27vw;
-    margin-left: 2vw;
+    margin-left: 2.5vw;
     margin-right: 2vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1368,7 +1350,7 @@
   body .seniors {
     width: 98vw;
     height: 30vw;
-    margin-left: 2vw;
+    margin-left: 2.5vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1404,4 +1386,7 @@
   body::-webkit-scrollbar {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+  body {
+    scrollbar-width: none; /* Firefox */
+  }
+}/*# sourceMappingURL=backup.css.map */

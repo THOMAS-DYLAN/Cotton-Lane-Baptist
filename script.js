@@ -4,7 +4,7 @@ $(".expand").click(
    () => {
       hidden = !hidden;
       hidden && (
-         $(".expand").css({ "animation": "arrow .5s backwards"}),
+         $(".expand").css({ "animation": "arrow .6s backwards"}),
          $(".links").slideUp(500),
          setTimeout(() => {
             $(".links").css({
@@ -18,7 +18,7 @@ $(".expand").click(
          }),
          $(".links").hide(),
          $(".links").slideDown(500),
-         $(".expand").css({ "animation": "arrow .5s forwards" })
+         $(".expand").css({ "animation": "arrow 1s forwards" })
       )
    }
 )

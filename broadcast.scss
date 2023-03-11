@@ -1,19 +1,57 @@
+@media only screen and (max-width: 480px) {
+   html {
+      background-color: gray;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      body {
+         background-color: gray;
+         text-align: center;
+         height: 100%;
+         width: 100.5%;
+         margin-top: -0.1vh;
+         margin-left: -1vh;
+         iframe {
+            height: 80vh;
+            width: 75vw;
+            margin-top: 5vh;
+            background-color: gray;
+            border: none;
+            overflow: hidden;
+         }
+      }
+   }
+}
+
 html {
-   background-color: red;
+   overflow: hidden;
+   background-color: gray;
    height: 100%;
    width: 100%;
    body {
       background-color: gray;
       text-align: center;
       height: 100%;
-      width: 100%;
-      margin-top: -.1vh;
+      width: 100.5%;
+      margin-top: -0.1vh;
       margin-left: -1vh;
       iframe {
          height: 80vh;
-         width: 75vw;
+         width: 80vw;
          margin-top: 10vh;
-         background-color: red;
+         background-color: gray;
+         border: none;
+         overflow: hidden;
+      }
+      .home{
+         color: white;
+         position: absolute;
+         top: 85%;
+         left: 46%;
+         background: black;
+         height: 3.5vh;
+         width: 5vw;
+         text-decoration: none;
       }
    }
 }
