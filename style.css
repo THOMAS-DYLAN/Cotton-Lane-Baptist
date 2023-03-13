@@ -607,7 +607,7 @@
   }
   body nav {
     display: inline-flex;
-    width: 101vw;
+    width: 101.5vw;
     height: 10%;
     position: sticky;
     left: 0;
@@ -622,8 +622,8 @@
   body nav h2 {
     width: 50%;
     display: inline-flex;
-    position: absolute;
-    top: 6%;
+    position: relative;
+    top: 1vh;
     left: 3%;
   }
   body nav ul {
@@ -632,8 +632,8 @@
     visibility: visible;
     list-style: none;
     position: relative;
-    top: 6%;
-    left: 55%;
+    top: 1.5vh;
+    left: 5%;
     background: transparent;
     border: none;
   }
