@@ -1284,8 +1284,8 @@
     margin-left: 19px;
   }
   body .youngadults {
+    height: 30vh;
     width: 47.5vw;
-    height: 30vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1311,8 +1311,8 @@
     color: yellow;
   }
   body .men {
+    height: 30vh;
     width: 47.5vw;
-    height: 27vw;
     margin-left: 2vw;
     margin-right: 2vw;
     margin-top: 1vh;
@@ -1339,8 +1339,8 @@
     color: yellow;
   }
   body .woman {
+    height: 30vh;
     width: 47.5vw;
-    height: 27vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -1366,8 +1366,8 @@
     color: yellow;
   }
   body .seniors {
+    height: 30vh;
     width: 98vw;
-    height: 30vw;
     margin-left: 2vw;
     margin-right: 1vw;
     margin-top: 1vh;
