@@ -15,10 +15,11 @@
     margin-left: -1vh;
   }
   html body iframe {
-    height: 49vh;
+    max-height: 49vh;
     width: 80vw;
     position: absolute;
-    top: 25vh;
+    top: 10vh;
+    left: -5vw;
     background-color: gray;
     border: none;
     overflow: hidden;
