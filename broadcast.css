@@ -13,7 +13,7 @@
     margin-left: -1vh;
   }
   html body iframe {
-    height: 80vh;
+    height: 50vh;
     width: 80vw;
     position: absolute;
     top: 10vh;
