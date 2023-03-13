@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
    html {
       background-color: blue;
       height: 100%;
@@ -6,6 +6,43 @@
       overflow: hidden;
       body {
          background-color: blue;
+         height: 100%;
+         width: 100.5%;
+         margin-top: -0.1vh;
+         margin-left: -1vh;
+         iframe {
+            height: 50vh;
+            width: 80vw;
+            position: absolute;
+            top: 10vh;
+            left: 10vw;
+            background-color: gray;
+            border: 2px solid white;
+         }
+         .home {
+            color: black;
+            position: absolute;
+            top: 67.5%;
+            left: 9.8%;
+            background: white;
+            height: 3.5vh;
+            width: fit-content;
+            padding-right: 5px;
+            padding-left: 5px;
+            text-decoration: none;
+         }
+      }
+   }
+}
+
+@media only screen and (min-width: 481px) {
+   html {
+      background-color: red;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      body {
+         background-color: red;
          height: 100%;
          width: 100.5%;
          margin-top: -0.1vh;
