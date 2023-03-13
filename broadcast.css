@@ -111,12 +111,12 @@
 @media only screen and (min-width: 1024px) {
   html {
     overflow: hidden;
-    background-color: gray;
+    background-color: blue;
     height: 100%;
     width: 100%;
   }
   html body {
-    background-color: gray;
+    background-color: blue;
     text-align: center;
     height: 100%;
     width: 100.5%;
