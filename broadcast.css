@@ -1,12 +1,12 @@
 @media only screen and (max-width: 768px) {
   html {
-    background-color: blue;
+    background-color: gray;
     height: 100%;
     width: 100%;
     overflow: hidden;
   }
   html body {
-    background-color: blue;
+    background-color: gray;
     height: 100%;
     width: 100.5%;
     margin-top: -0.1vh;
