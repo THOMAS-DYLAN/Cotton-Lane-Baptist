@@ -337,8 +337,8 @@
   }
   body nav h2 {
     display: inline-flex;
-    margin-top: 5%;
     position: absolute;
+    top: 2.5%;
     left: 5%;
   }
   body nav ul {
@@ -347,7 +347,7 @@
     width: 101vw;
     display: inline;
     position: absolute;
-    top: 5.1vh;
+    top: 2.5%;
     background-color: rgba(255, 255, 255, 0.4);
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
@@ -381,8 +381,6 @@
   body .welcome .nameheader {
     color: rgb(240, 240, 240);
     font-size: 30px;
-    margin-top: -3vh;
-    position: relative;
   }
   body .welcome img {
     height: 100%;
@@ -481,14 +479,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 22%;
+    bottom: 18%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
+    bottom: 25%;
     color: yellow;
   }
   body .men {
@@ -509,14 +507,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 22%;
+    bottom: 18%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
+    bottom: 25%;
     color: yellow;
   }
   body .woman {
@@ -537,14 +535,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 22%;
+    bottom: 18%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
+    bottom: 25%;
     color: yellow;
   }
   body .seniors {
@@ -565,14 +563,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 22%;
+    bottom: 18%;
   }
   body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
+    bottom: 25%;
     color: yellow;
   }
   body footer {
@@ -590,6 +588,7 @@
 @media only screen and (min-width: 769px) {
   html {
     background-color: black;
+    overflow-x: hidden;
   }
   body {
     -ms-overflow-style: none;
