@@ -1,71 +1,74 @@
 @media only screen and (max-width: 480px) {
-   html {
-      background-color: gray;
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
-      body {
-         background-color: gray;
-         text-align: center;
-         height: 100%;
-         width: 100.5%;
-         margin-top: -0.1vh;
-         margin-left: -1vh;
-         iframe {
-            height: 60vh;
-            width: 85vw;
-            margin-top: 1vh;
-            background-color: gray;
-            border: none;
-            overflow: hidden;
-         }
-         .home{
-            color: white;
-            position: absolute;
-            top: 90%;
-            left: 9.8%;
-            background: black;
-            height: 3.5vh;
-            width: fit-content;
-            padding-right: 5px;
-            padding-left: 5px;
-            text-decoration: none;
-         }
-      }
-   }
+  html {
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  html body {
+    background-color: gray;
+    text-align: center;
+    height: 100%;
+    width: 100.5%;
+    margin-top: -0.1vh;
+    margin-left: -1vh;
+  }
+  html body iframe {
+    height: 49vh;
+    width: 80vw;
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+    background-color: gray;
+    border: none;
+    overflow: hidden;
+  }
+  html body .home {
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 9.8%;
+    background: black;
+    height: 3.5vh;
+    width: fit-content;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+  }
 }
-
 html {
-   overflow: hidden;
-   background-color: gray;
-   height: 100%;
-   width: 100%;
-   body {
-      background-color: gray;
-      text-align: center;
-      height: 100%;
-      width: 100.5%;
-      margin-top: -0.1vh;
-      margin-left: -1vh;
-      iframe {
-         height: 80vh;
-         width: 80vw;
-         margin-top: 10vh;
-         background-color: gray;
-         border: none;
-         overflow: hidden;
-      }
-      .home{
-         color: white;
-         position: absolute;
-         top: 90%;
-         left: 9.8%;
-         background: black;
-         height: 3.5vh;
-         width: fit-content;
-         padding-right: 5px;
-         padding-left: 5px;
-         text-decoration: none;
-      }
-   }
+  overflow: hidden;
+  background-color: gray;
+  height: 100%;
+  width: 100%;
 }
+html body {
+  background-color: gray;
+  text-align: center;
+  height: 100%;
+  width: 100.5%;
+  margin-top: -0.1vh;
+  margin-left: -1vh;
+}
+html body iframe {
+  height: 80vh;
+  width: 80vw;
+  position: absolute;
+  top: 10vh;
+  left: 10vh;
+  background-color: gray;
+  border: none;
+  overflow: hidden;
+}
+html body .home {
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 9.8%;
+  background: black;
+  height: 3.5vh;
+  width: fit-content;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+}/*# sourceMappingURL=broadcast.css.map */
