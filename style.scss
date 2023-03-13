@@ -199,7 +199,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 18%;
+				bottom: 17%;
 			}
 			.time {
 				font-size: 25px;
@@ -227,7 +227,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 18%;
+				bottom: 17%;
 			}
 			.time {
 				font-size: 25px;
@@ -255,7 +255,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 18%;
+				bottom: 17%;
 			}
 			.time {
 				font-size: 25px;
@@ -283,7 +283,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 18%;
+				bottom: 17%;
 			}
 			.time {
 				font-size: 25px;
@@ -344,8 +344,8 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			}
 			h2 {
 				display: inline-flex;
-				margin-top: 5%;
 				position: absolute;
+				top: 2.5%;
 				left: 5%;
 			}
 			ul {
@@ -354,7 +354,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				width: 101vw;
 				display: inline;
 				position: absolute;
-				top: 5.1vh;
+				top: 2.5%;
 				background-color: $background-color_2;
 				border: none;
 				border-bottom: 2px solid rgba(0, 0, 0, 0.5);
@@ -388,8 +388,6 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			.nameheader {
 				color: $color_3;
 				font-size: 30px;
-				margin-top: -3vh;
-				position: relative;
 			}
 			img {
 				height: 100%;
@@ -488,14 +486,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 22%;
+				bottom: 18%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 28%;
+				bottom: 25%;
 				color: $color_4;
 			}
 		}
@@ -516,14 +514,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 22%;
+				bottom: 18%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 28%;
+				bottom: 25%;
 				color: $color_4;
 			}
 		}
@@ -544,14 +542,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 22%;
+				bottom: 18%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 28%;
+				bottom: 25%;
 				color: $color_4;
 			}
 		}
@@ -572,14 +570,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 22%;
+				bottom: 18%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 28%;
+				bottom: 25%;
 				color: $color_4;
 			}
 		}
@@ -599,6 +597,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 @media only screen and (min-width: 769px) {
 	html {
 		background-color: $background-color_1;
+		overflow-x: hidden;
 	}
 	body {
 		-ms-overflow-style: none;
