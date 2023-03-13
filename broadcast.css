@@ -1,12 +1,12 @@
 @media only screen and (max-width: 768px) {
   html {
-    background-color: gray;
+    background-color: blue;
     height: 100%;
     width: 100%;
     overflow: hidden;
   }
   html body {
-    background-color: gray;
+    background-color: blue;
     height: 100%;
     width: 100.5%;
     margin-top: -0.1vh;
@@ -24,7 +24,7 @@
   html body .home {
     color: black;
     position: absolute;
-    top: 70.5%;
+    top: 65.5%;
     left: 9.8%;
     background: white;
     height: 3.5vh;
