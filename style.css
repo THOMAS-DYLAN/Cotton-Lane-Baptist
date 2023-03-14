@@ -1,1435 +1,186 @@
-@keyframes arrow {
-  100% {
-    color: white;
-  }
-  0% {
-    color: black;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   html {
-    background-color: black;
-  }
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 101%;
-    position: absolute;
-    left: -1vw;
-    top: -1vw;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    scrollbar-width: none;
-  }
-  body nav {
-    display: inline-flex;
-    width: 101.5vw;
-    height: 10vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    justify-content: space-evenly;
-    z-index: 5;
-  }
-  body nav h2 {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    font-size: 20px;
-    position: absolute;
-    top: 3.5vh;
-    left: 5%;
-  }
-  body nav .expand {
-    display: default;
-    color: black;
-    font-size: 30px;
-    position: absolute;
-    top: 3vh;
-    right: 5%;
-  }
-  body nav .expand:hover {
-    cursor: pointer;
-  }
-  body nav ul {
-    visibility: hidden;
-    list-style: none;
-    width: 101vw;
-    display: inline;
-    position: absolute;
-    top: 10.1vh;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-  }
-  body nav ul a {
-    color: black;
-    text-decoration: none;
-  }
-  body nav ul a li {
-    margin-top: 3px;
-    font-size: 15px;
-    margin-left: -1%;
-    color: black;
-  }
-  body .welcome {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 2vh;
-    text-align: center;
-  }
-  body .welcome .welcomeheader {
-    color: white;
-    margin-top: -40vh;
-    font-size: 45px;
-    position: relative;
-  }
-  body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 24px;
-    margin-top: 23vh;
-    position: relative;
-  }
-  body .welcome img {
+    background-color: blue;
     height: 100%;
     width: 100%;
-    border-radius: 15px;
+    overflow: hidden;
   }
-  body .mainservices {
+  html body {
+    background-color: blue;
+    height: 100%;
+    width: 100.5%;
+    margin-top: -0.1vh;
+    margin-left: -1vh;
+  }
+  html body iframe {
+    height: 50vh;
+    width: 80vw;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    background-color: gray;
+    border: 2px solid white;
+  }
+  html body .home {
+    color: black;
+    position: absolute;
+    top: 67.5%;
+    left: 9.8%;
     background: white;
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  body .mainservices h3 {
-    font-size: 30px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  body .mainservices .sundayschool {
-    margin-top: -10.5%;
-    width: 50%;
-  }
-  body .mainservices .sundayschool h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .sundayschool .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .secondservice {
-    margin-top: -10.5%;
-    width: 50%;
-  }
-  body .mainservices .secondservice h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .secondservice .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event1 {
-    margin-top: -3.5%;
-    width: 50%;
-  }
-  body .mainservices .event1 h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .event1 .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event2 {
-    margin-top: -3.5%;
-    width: 50%;
-  }
-  body .mainservices .event2 h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .event2 .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .youngadults {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 17%;
-  }
-  body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
-  }
-  body .men {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 17%;
-  }
-  body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
-  }
-  body .woman {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 17%;
-  }
-  body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
-  }
-  body .seniors {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 17%;
-  }
-  body .seniors .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
-  }
-  body footer {
-    width: 100vw;
-    height: 15vh;
-    margin-left: 1vw;
-    margin-top: 5vh;
-    background-color: black;
-    color: white;
-  }
-  body::-webkit-scrollbar {
-    display: none;
+    height: 3.5vh;
+    width: fit-content;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 481px) {
   html {
-    background-color: black;
-  }
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 101%;
-    position: absolute;
-    left: -1vw;
-    top: -4vw;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    scrollbar-width: none;
-  }
-  body nav {
-    display: inline-flex;
-    width: 101.5vw;
-    height: 15vh;
-    position: sticky;
-    left: 0;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    z-index: 5;
-  }
-  body nav .expand {
-    color: black;
-    font-size: 40px;
-    position: absolute;
-    top: 7.5%;
-    right: 5%;
-  }
-  body nav .expand:hover {
-    cursor: pointer;
-  }
-  body nav h2 {
-    display: inline-flex;
-    position: absolute;
-    top: 2.5%;
-    left: 5%;
-  }
-  body nav ul {
-    visibility: hidden;
-    list-style: none;
-    width: 101vw;
-    display: inline;
-    position: absolute;
-    top: 2.5%;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-  }
-  body nav ul a {
-    color: black;
-    text-decoration: none;
-  }
-  body nav ul a li {
-    margin-top: 3px;
-    font-size: 15px;
-    margin-left: -1%;
-    color: black;
-  }
-  body .welcome {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 2vh;
-    text-align: center;
-    border-radius: 17px;
-    border: 2px solid rgba(245, 245, 245, 0.3);
-  }
-  body .welcome .welcomeheader {
-    color: white;
-    margin-top: -15vh;
-    font-size: 45px;
-    position: relative;
-  }
-  body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 30px;
-  }
-  body .welcome img {
+    background-color: red;
     height: 100%;
     width: 100%;
-    border-radius: 15px;
+    overflow: hidden;
   }
-  body .mainservices {
+  html body {
+    background-color: red;
+    height: 100%;
+    width: 100.5%;
+    margin-top: -0.1vh;
+    margin-left: -1vh;
+  }
+  html body iframe {
+    height: 50vh;
+    width: 80vw;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    background-color: gray;
+    border: 2px solid white;
+  }
+  html body .home {
+    color: black;
+    position: absolute;
+    top: 67.5%;
+    left: 9.8%;
     background: white;
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  body .mainservices h3 {
-    font-size: 35px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 90%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  body .mainservices .sundayschool {
-    margin-top: -10.5%;
-    width: 48%;
-  }
-  body .mainservices .sundayschool h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .sundayschool .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .secondservice {
-    margin-top: -10.5%;
-    width: 50%;
-  }
-  body .mainservices .secondservice h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .secondservice .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event1 {
-    margin-top: -5.5%;
-    width: 48%;
-  }
-  body .mainservices .event1 h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .event1 .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event2 {
-    margin-top: -5.5%;
-    width: 50%;
-  }
-  body .mainservices .event2 h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .event2 .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .youngadults {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18%;
-  }
-  body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
-  }
-  body .men {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18%;
-  }
-  body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
-  }
-  body .woman {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18%;
-  }
-  body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
-  }
-  body .seniors {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18%;
-  }
-  body .seniors .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
-  }
-  body footer {
-    width: 100vw;
-    height: 15vh;
-    margin-left: 1vw;
-    margin-top: 5vh;
-    background-color: black;
-    color: white;
-  }
-  body::-webkit-scrollbar {
-    display: none;
+    height: 3.5vh;
+    width: fit-content;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 769px) {
   html {
-    background-color: black;
-    overflow-x: hidden;
+    overflow: hidden;
+    background-color: orange;
+    height: 100%;
+    width: 100%;
   }
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 101%;
-    position: absolute;
-    left: -1vw;
-    top: -1vw;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-    flex-wrap: wrap;
-    scrollbar-width: none;
-    overflow-x: hidden;
-  }
-  body nav {
-    display: inline-flex;
-    width: 101.5vw;
-    height: 10%;
-    position: sticky;
-    left: 0;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    z-index: 2000;
-  }
-  body nav .expand {
-    display: none;
-  }
-  body nav h2 {
-    width: 50%;
-    display: inline-flex;
-    position: relative;
-    top: 1vh;
-    left: 3%;
-  }
-  body nav ul {
-    width: 50%;
-    display: inline-flex;
-    visibility: visible;
-    list-style: none;
-    position: relative;
-    top: 1vh;
-    left: 5%;
-    background: transparent;
-    border: none;
-  }
-  body nav ul a {
-    color: black;
-    text-decoration: none;
-  }
-  body nav ul a li {
-    width: 88px;
-    color: black;
-    margin-left: 5px;
-    cursor: default;
-  }
-  body nav ul a li#wom {
-    width: 108px;
-  }
-  body nav ul a li#sen {
-    width: 100px;
-  }
-  body .welcome {
-    height: 60vh;
-    width: 95vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 2vh;
+  html body {
+    background-color: orange;
     text-align: center;
-  }
-  body .welcome .welcomeheader {
-    color: white;
-    margin-top: -50vh;
-    font-size: 50px;
-    position: relative;
-  }
-  body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 50px;
-    margin-top: 27vh;
-    position: relative;
-  }
-  body .welcome img {
     height: 100%;
-    width: 100%;
-    border-radius: 15px;
+    width: 100.5%;
+    margin-top: -0.1vh;
+    margin-left: -1vh;
   }
-  body .mainservices {
+  html body iframe {
+    height: 80vh;
+    width: 80vw;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    background-color: gray;
+    border: 2px solid white;
+    overflow: hidden;
+  }
+  html body .home {
+    color: black;
+    position: absolute;
+    top: 90.5%;
+    left: 10%;
     background: white;
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  body .mainservices h3 {
-    font-size: 45px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  body .mainservices .sundayschool {
-    margin-top: -7%;
-    width: 50%;
-  }
-  body .mainservices .sundayschool h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .sundayschool .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .secondservice {
-    margin-top: -7%;
-    width: 50%;
-  }
-  body .mainservices .secondservice h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .secondservice .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event1 {
-    margin-top: -5.5%;
-    width: 50%;
-  }
-  body .mainservices .event1 h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .event1 .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event2 {
-    margin-top: -5.5%;
-    width: 50%;
-  }
-  body .mainservices .event2 h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .event2 .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .youngadults {
-    height: 25vh;
-    width: 45vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 23%;
-  }
-  body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 28%;
-    color: yellow;
-  }
-  body .men {
-    height: 25vh;
-    width: 45vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 23%;
-  }
-  body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 28%;
-    color: yellow;
-  }
-  body .woman {
-    height: 25vh;
-    width: 45vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 23%;
-  }
-  body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 28%;
-    color: yellow;
-  }
-  body .seniors {
-    height: 25vh;
-    width: 45vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 23%;
-  }
-  body .seniors .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 28%;
-    color: yellow;
-  }
-  body footer {
-    width: 100vw;
-    height: 15vh;
-    margin-left: 1vw;
-    margin-top: 5vh;
-    background-color: black;
-    color: white;
-  }
-  body::-webkit-scrollbar {
-    display: none;
+    height: 3vh;
+    width: 10vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 1024px) {
   html {
-    background-color: black;
+    overflow: hidden;
+    background-color: green;
+    height: 100%;
+    width: 100%;
   }
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 10vw;
-    position: absolute;
-    left: -1vw;
-    top: -1vw;
-    background: lightgray;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-    flex-wrap: wrap;
-    scrollbar-width: none;
-  }
-  body nav {
-    display: inline-flex;
-    width: 100vw;
-    height: 10%;
-    position: sticky;
-    left: 0;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    z-index: 2000;
-  }
-  body nav .expand {
-    display: none;
-  }
-  body nav h2 {
-    width: 50%;
-    display: inline-flex;
-    padding-right: 18%;
-    margin-top: 2.5vh;
-    position: absolute;
-    left: 1%;
-  }
-  body nav ul {
-    width: 50%;
-    display: inline-flex;
-    visibility: visible;
-    list-style: none;
-    position: absolute;
-    top: 3%;
-    left: 30%;
-  }
-  body nav ul a {
-    color: black;
-    text-decoration: none;
-    margin-top: 5vh;
-  }
-  body nav ul a li {
-    margin-left: 20px;
-    color: black;
-  }
-  body .welcome {
-    height: 90vh;
-    width: 98vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 2vh;
+  html body {
+    background-color: green;
     text-align: center;
-  }
-  body .welcome .welcomeheader {
-    color: white;
-    margin-top: -65vh;
-    font-size: 75px;
-    position: relative;
-  }
-  body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 70px;
-    margin-top: 25vh;
-    position: relative;
-  }
-  body .welcome img {
     height: 100%;
-    width: 100%;
-    border-radius: 15px;
+    width: 100.5%;
+    margin-top: -0.1vh;
+    margin-left: -1vh;
   }
-  body .mainservices {
+  html body iframe {
+    height: 80vh;
+    width: 80vw;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    background-color: gray;
+    border: 2px solid white;
+    overflow: hidden;
+  }
+  html body .home {
+    color: black;
+    position: absolute;
+    top: 90.5%;
+    left: 10%;
     background: white;
-    width: 45vw;
-    height: 25vw;
-    margin-left: 3vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  body .mainservices h3 {
-    font-size: 45px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 70%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  body .mainservices .sundayschool {
-    margin-top: -8.5%;
-    width: 50%;
-  }
-  body .mainservices .sundayschool h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .sundayschool .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .secondservice {
-    margin-top: -8.5%;
-    width: 50%;
-  }
-  body .mainservices .secondservice h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .secondservice .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event1 {
-    margin-top: -5.5%;
-    width: 50%;
-  }
-  body .mainservices .event1 h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .event1 .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event2 {
-    margin-top: -5.5%;
-    width: 50%;
-  }
-  body .mainservices .event2 h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .event2 .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .youngadults {
-    width: 51vw;
-    height: 27vw;
-    margin-left: 2vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 43%;
-  }
-  body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 53%;
-    color: rgb(236, 225, 225);
-  }
-  body .men {
-    width: 47vw;
-    height: 35vw;
-    margin-left: 23vw;
-    margin-top: -2vh;
-    border-radius: 20px;
-  }
-  body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 30%;
-  }
-  body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 40%;
-    color: rgb(236, 225, 225);
-  }
-  body .woman {
-    width: 50.5vw;
-    height: 33.5vw;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 33%;
-  }
-  body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 43%;
-    color: rgb(236, 225, 225);
-  }
-  body .seniors {
-    width: 98vw;
-    height: 30vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18%;
-  }
-  body .seniors .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 22%;
-    color: yellow;
-  }
-  body footer {
-    width: 100vw;
-    height: 15vh;
-    margin-left: 1vw;
-    margin-top: 5vh;
-    background-color: black;
-    color: white;
-  }
-  body::-webkit-scrollbar {
-    display: none;
+    height: 3vh;
+    width: 10vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 1200px) {
   html {
-    background-color: black;
+    overflow: hidden;
+    background-color: purple;
+    height: 100%;
+    width: 100%;
   }
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 102%;
+  html body {
+    background-color: purple;
+    text-align: center;
+    height: 100%;
+    width: 100.5%;
+    margin-top: -0.1vh;
+    margin-left: -1vh;
+  }
+  html body iframe {
+    height: 80vh;
+    width: 80vw;
     position: absolute;
-    left: -1vw;
-    top: -1vw;
-    background: lightgray;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-    flex-wrap: wrap;
-    scrollbar-width: none;
+    top: 10vh;
+    left: 10vw;
+    background-color: gray;
+    border: 2px solid white;
+    overflow: hidden;
   }
-  body nav {
-    display: inline-flex;
-    height: 15vh;
-    position: absolute;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    z-index: 2000;
-    width: 103vw;
-  }
-  body nav .expand {
-    display: none;
-  }
-  body nav h2 {
-    width: 50%;
-    display: inline-flex;
-    margin-left: 2%;
-    padding-right: 18%;
-    position: absolute;
-    top: 2vh;
-    left: 1%;
-  }
-  body nav ul {
-    width: 50%;
-    display: inline-flex;
-    visibility: visible;
-    list-style: none;
-    margin-left: 35%;
-    position: absolute;
-    top: 1vh;
-  }
-  body nav ul a {
+  html body .home {
     color: black;
+    position: absolute;
+    top: 90.5%;
+    left: 10%;
+    background: white;
+    height: 3vh;
+    width: 10vw;
+    padding-right: 5px;
+    padding-left: 5px;
     text-decoration: none;
   }
-  body nav ul a li {
-    margin-left: 18px;
-    color: black;
-  }
-  body .welcome {
-    height: 90vh;
-    width: 98vw;
-    margin-left: 2vw;
-    margin-right: 1vw;
-    margin-top: 2vh;
-    text-align: center;
-  }
-  body .welcome .welcomeheader {
-    color: white;
-    margin-top: -70vh;
-    font-size: 75px;
-    position: relative;
-  }
-  body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 70px;
-    margin-top: 20vh;
-    position: relative;
-  }
-  body .welcome img {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-  body .mainservices {
-    background: white;
-    width: 47.5vw;
-    height: 30vw;
-    margin-left: 2vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  body .mainservices h3 {
-    font-size: 45px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  body .mainservices .sundayschool {
-    margin-top: -8.5%;
-    width: 50%;
-  }
-  body .mainservices .sundayschool h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  body .mainservices .sundayschool .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .secondservice {
-    margin-top: -8.5%;
-    width: 50%;
-  }
-  body .mainservices .secondservice h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  body .mainservices .secondservice .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event1 {
-    margin-top: -2.5%;
-    width: 50%;
-  }
-  body .mainservices .event1 h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  body .mainservices .event1 .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event2 {
-    margin-top: -2.5%;
-    width: 50%;
-  }
-  body .mainservices .event2 h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  body .mainservices .event2 .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .youngadults {
-    width: 47.5vw;
-    height: 30vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18%;
-  }
-  body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 23%;
-    color: yellow;
-  }
-  body .men {
-    width: 47.5vw;
-    height: 27vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 21%;
-  }
-  body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 27%;
-    color: yellow;
-  }
-  body .woman {
-    width: 47.5vw;
-    height: 27vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 21%;
-  }
-  body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 27%;
-    color: yellow;
-  }
-  body .seniors {
-    width: 98vw;
-    height: 30vw;
-    margin-left: 2vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18%;
-  }
-  body .seniors .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 22%;
-    color: yellow;
-  }
-  body footer {
-    width: 100vw;
-    height: 15vh;
-    margin-left: 1vw;
-    margin-top: 5vh;
-    background-color: black;
-    color: white;
-  }
-  body::-webkit-scrollbar {
-    display: none;
-  }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=broadcast.css.map */
