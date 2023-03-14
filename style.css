@@ -632,7 +632,7 @@
     visibility: visible;
     list-style: none;
     position: relative;
-    top: 1.5vh;
+    top: 1vh;
     left: 5%;
     background: transparent;
     border: none;
@@ -656,7 +656,7 @@
   body .welcome {
     height: 60vh;
     width: 95vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 2vh;
     text-align: center;
@@ -682,7 +682,7 @@
     background: white;
     height: 50vh;
     width: 95vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -755,7 +755,7 @@
   body .youngadults {
     height: 25vh;
     width: 45vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -783,7 +783,7 @@
   body .men {
     height: 25vh;
     width: 45vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -811,7 +811,7 @@
   body .woman {
     height: 25vh;
     width: 45vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -839,7 +839,7 @@
   body .seniors {
     height: 25vh;
     width: 45vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
@@ -938,7 +938,7 @@
   body .welcome {
     height: 90vh;
     width: 98vw;
-    margin-left: 2vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 2vh;
     text-align: center;
@@ -964,7 +964,7 @@
     background: white;
     width: 45vw;
     height: 25vw;
-    margin-left: 2vw;
+    margin-left: 3vw;
     margin-top: 1vh;
     border-radius: 20px;
     display: inline-flex;
@@ -1063,7 +1063,7 @@
   body .men {
     width: 47vw;
     height: 35vw;
-    margin-left: 2vw;
+    margin-left: 23vw;
     margin-top: -2vh;
     border-radius: 20px;
   }
@@ -1117,7 +1117,7 @@
   body .seniors {
     width: 98vw;
     height: 30vw;
-    margin-left: 2vw;
+    margin-left: 3vw;
     margin-right: 1vw;
     margin-top: 1vh;
     border-radius: 20px;
