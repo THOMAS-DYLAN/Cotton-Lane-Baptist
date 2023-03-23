@@ -111,12 +111,12 @@
 @media only screen and (min-width: 1024px) {
   html {
     overflow: hidden;
-    background-color: rgb(131, 174, 166);
+    background-color: black;
     height: 100%;
     width: 100%;
   }
   html body {
-    background-color: rgb(131, 174, 166);
+    background-color: black;
     text-align: center;
     height: 100%;
     width: 100.5%;
@@ -167,7 +167,6 @@
     position: absolute;
     top: 10vh;
     left: 10vw;
-    background-color: gray;
     border: 2px solid white;
     overflow: hidden;
   }
