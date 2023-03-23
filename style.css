@@ -981,7 +981,6 @@
     scrollbar-width: hidden;
     width: 102%;
     position: absolute;
-    left: -1vw;
     top: -1vw;
     background: lightgray;
     background: url("./imgs/cross.jfif");
