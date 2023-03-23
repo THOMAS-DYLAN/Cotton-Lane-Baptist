@@ -984,7 +984,7 @@
     left: -1vw;
     top: -1vw;
     background: lightgray;
-    background: url("./imgs/cross.jfif");
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-flex;
@@ -1470,6 +1470,8 @@
   body .mainservices .eventExpand {
     cursor: pointer;
     margin-left: 5%;
+    position: relative;
+    top: 5%;
   }
   body .youngadults {
     width: 47.5vw;
