@@ -990,8 +990,9 @@
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 23%;
-    color: yellow;
+    bottom: 21.5%;
+    color: lightblue;
+    width: 250px;
   }
   html body .men {
     width: 48vw;
@@ -1018,8 +1019,9 @@
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 27%;
-    color: yellow;
+    bottom: 25%;
+    color: lightblue;
+    width: 250px;
   }
   html body .woman {
     width: 48vw;
@@ -1046,8 +1048,9 @@
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 27%;
-    color: yellow;
+    bottom: 25%;
+    color: lightblue;
+    width: 250px;
   }
   html body footer {
     width: 100vw;
