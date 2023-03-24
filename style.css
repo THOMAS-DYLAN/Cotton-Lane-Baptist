@@ -720,9 +720,8 @@
   body .welcome {
     height: 60vh;
     width: 95vw;
-    margin-left: 2vw;
-    margin-right: 1vw;
-    margin-top: 2vh;
+    position: relative;
+    right: 1vw;
     text-align: center;
   }
   body .welcome .welcomeheader {
@@ -745,7 +744,7 @@
   body .mainservices {
     background: white;
     height: 30vh;
-    width: 95vw;
+    width: 45vw;
     margin-left: 2vw;
     margin-right: 1vw;
     margin-top: 1vh;
@@ -849,7 +848,7 @@
     margin-left: 5%;
   }
   body .youngadults {
-    height: 25vh;
+    height: 30vh;
     width: 45vw;
     margin-left: 2vw;
     margin-right: 1vw;
@@ -873,11 +872,11 @@
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 26%;
     color: yellow;
   }
   body .men {
-    height: 25vh;
+    height: 30vh;
     width: 45vw;
     margin-left: 3vw;
     margin-right: 1vw;
@@ -905,7 +904,7 @@
     color: yellow;
   }
   body .woman {
-    height: 25vh;
+    height: 30vh;
     width: 45vw;
     margin-left: 2vw;
     margin-right: 1vw;
@@ -925,34 +924,6 @@
     bottom: 23%;
   }
   body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 28%;
-    color: yellow;
-  }
-  body .seniors {
-    height: 25vh;
-    width: 45vw;
-    margin-left: 3vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 23%;
-  }
-  body .seniors .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
