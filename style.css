@@ -1059,7 +1059,7 @@
     height: 90vh;
     width: 98vw;
     position: absolute;
-    right: 0;
+    left: -2.5vw;
     margin-top: 17vh;
     text-align: center;
   }
@@ -1089,7 +1089,7 @@
     width: 48vw;
     height: 30vw;
     position: relative;
-    left: -1vw;
+    left: -2.5vw;
     border-radius: 20px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -1195,7 +1195,7 @@
     width: 48vw;
     height: 30vw;
     position: relative;
-    right: 2vw;
+    left: -5vw;
     border-radius: 20px;
   }
   html body .youngadults img {
@@ -1229,7 +1229,8 @@
     width: 48vw;
     height: 27vw;
     position: relative;
-    left: -4vh;
+    left: -5.5vh;
+    margin-top: 2vh;
     border-radius: 20px;
   }
   html body .men img {
@@ -1257,7 +1258,8 @@
     width: 48vw;
     height: 27vw;
     position: relative;
-    right: 3vw;
+    left: -69.5vw;
+    margin-top: 2vh;
     border-radius: 20px;
   }
   html body .woman img {
