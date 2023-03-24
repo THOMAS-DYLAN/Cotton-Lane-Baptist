@@ -421,7 +421,7 @@
   }
   body .mainservices {
     background: white;
-    height: 50vh;
+    height: 45vh;
     width: 95vw;
     margin-left: 3.5vw;
     margin-right: 1vw;
@@ -550,7 +550,7 @@
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 20%;
     color: yellow;
   }
   body .men {
