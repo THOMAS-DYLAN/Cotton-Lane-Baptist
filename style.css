@@ -421,7 +421,7 @@
   }
   body .mainservices {
     background: white;
-    height: 45vh;
+    height: 50vh;
     width: 95vw;
     margin-left: 3.5vw;
     margin-right: 1vw;
@@ -550,7 +550,7 @@
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 20%;
+    bottom: 25%;
     color: yellow;
   }
   body .men {
@@ -675,7 +675,7 @@
     height: 10%;
     position: sticky;
     left: 0;
-    top: 0;
+    top: 1vh;
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(0, 0, 0, 0.5);
     z-index: 2000;
@@ -744,7 +744,7 @@
   }
   body .mainservices {
     background: white;
-    height: 50vh;
+    height: 30vh;
     width: 95vw;
     margin-left: 2vw;
     margin-right: 1vw;
@@ -873,7 +873,7 @@
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 28%;
+    bottom: 25%;
     color: yellow;
   }
   body .men {
