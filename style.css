@@ -1053,7 +1053,7 @@
     width: 103vw;
     position: absolute;
     left: 0;
-    top: 5vh;
+    top: 0;
     background-color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(0, 0, 0, 0.5);
     z-index: 2000;
@@ -1117,7 +1117,7 @@
     width: 48vw;
     height: 30vw;
     position: relative;
-    left: -2vw;
+    left: -4vw;
     margin-top: 98vh;
     border-radius: 20px;
     display: inline-flex;
