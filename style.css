@@ -1112,13 +1112,16 @@
     width: 100%;
     border-radius: 15px;
   }
+  html body .services1 {
+    display: inline-flex;
+    margin-top: 43vw;
+  }
   html body .mainservices {
     background: white;
     width: 48vw;
     height: 30vw;
     position: relative;
     left: -1vw;
-    margin-top: 98vh;
     border-radius: 20px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -1223,9 +1226,8 @@
   html body .youngadults {
     width: 48vw;
     height: 30vw;
-    margin-top: -64vh;
     position: relative;
-    left: 48%;
+    right: 2vw;
     border-radius: 20px;
   }
   html body .youngadults img {
@@ -1249,12 +1251,17 @@
     color: lightblue;
     width: 250px;
   }
+  html body .services2 {
+    display: inline-flex;
+    margin-top: 1vh;
+    position: relative;
+    left: 0;
+  }
   html body .men {
     width: 48vw;
     height: 27vw;
     position: relative;
-    left: -5vh;
-    margin-top: 1vh;
+    left: -4vh;
     border-radius: 20px;
   }
   html body .men img {
@@ -1282,8 +1289,7 @@
     width: 48vw;
     height: 27vw;
     position: relative;
-    left: 47%;
-    margin-top: -57.8vh;
+    right: 3vw;
     border-radius: 20px;
   }
   html body .woman img {
