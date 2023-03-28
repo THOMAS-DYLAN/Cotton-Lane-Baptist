@@ -918,14 +918,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 1%;
   }
   body .woman .time {
     font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 20%;
+    bottom: 4%;
     color: yellow;
   }
   body footer {
