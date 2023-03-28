@@ -859,14 +859,14 @@
     border-radius: 20px;
   }
   body .youngadults h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 5px;
     color: white;
     position: relative;
     bottom: 23%;
   }
   body .youngadults .time {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
@@ -887,14 +887,14 @@
     border-radius: 20px;
   }
   body .men h2 {
-    font-size: 35px;
+    font-size: 25px;
     margin-left: 5px;
     color: white;
     position: relative;
     bottom: 23%;
   }
   body .men .time {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
@@ -921,7 +921,7 @@
     bottom: 23%;
   }
   body .woman .time {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
