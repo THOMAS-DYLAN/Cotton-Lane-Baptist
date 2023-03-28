@@ -863,14 +863,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 12%;
+    bottom: 14%;
   }
   body .youngadults .time {
     font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 15%;
+    bottom: 17%;
     color: lightblue;
   }
   body .men {
@@ -891,14 +891,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 12%;
+    bottom: 14%;
   }
   body .men .time {
     font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 15%;
+    bottom: 17%;
     color: lightblue;
   }
   body .woman {
@@ -918,14 +918,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 12%;
+    bottom: 14%;
   }
   body .woman .time {
     font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 15%;
+    bottom: 17%;
     color: lightblue;
   }
   body footer {
