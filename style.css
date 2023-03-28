@@ -863,15 +863,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 1%;
   }
   body .youngadults .time {
     font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 20%;
-    color: yellow;
+    bottom: 4%;
+    color: lightblue;
   }
   body .men {
     height: 30vh;
@@ -891,15 +891,15 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 1%;
   }
   body .men .time {
     font-size: 20px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 20%;
-    color: yellow;
+    bottom: 4%;
+    color: lightblue;
   }
   body .woman {
     height: 30vh;
@@ -926,7 +926,7 @@
     margin-left: 9px;
     position: relative;
     bottom: 4%;
-    color: yellow;
+    color: lightblue;
   }
   body footer {
     width: 100vw;
