@@ -126,7 +126,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				font-family: $font-family_1;
 			}
 			.sundayschool {
-				margin-top: -10.5%;
+				margin-top: -1.5%;
 				width: 50%;
 				h2 {
 					font-size: 20px;
@@ -140,7 +140,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 			}
 			.secondservice {
-				margin-top: -10.5%;
+				margin-top: -1.5%;
 				width: 50%;
 				h2 {
 					font-size: 20px;
@@ -154,7 +154,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 			}
 			.event1 {
-				margin-top: -3.5%;
+				margin-top: 10.5%;
 				width: 50%;
 				h2 {
 					font-size: 20px;
@@ -167,51 +167,21 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 19px;
 				}
 			}
-			.event2 {
-				margin-top: -3.5%;
-				width: 50%;
-				h2 {
-					font-size: 20px;
-					margin-left: 15px;
+			ul {
+				list-style: none;
+				width: 34%;
+				height: 50%;
+				margin-left: 1vw;
+				border: 1px solid lightgray;
+				padding-bottom: -10vh;
+				li {
+					width: 48%;
+					font-size: xx-large;
+					height: 10vh;
+					display: inline-flex;
+					flex-wrap: wrap;
+					cursor: pointer;
 				}
-				.time {
-					font-size: 15px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.event4 {
-				margin-top: -3.5%;
-				width: 50%;
-				h2 {
-					font-size: 20px;
-					margin-left: 15px;
-				}
-				.time {
-					font-size: 15px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.event3 {
-				margin-top: -3.5%;
-				width: 50%;
-				h2 {
-					font-size: 20px;
-					margin-left: 15px;
-				}
-				.time {
-					font-size: 15px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.eventExpand {
-				margin-left: 2.5%;
-				cursor: pointer;
 			}
 		}
 		.youngadults {
