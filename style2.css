@@ -119,7 +119,7 @@
     font-family: "Times New Roman", Times, serif;
   }
   body .mainservices .sundayschool {
-    margin-top: -10.5%;
+    margin-top: -1.5%;
     width: 50%;
   }
   body .mainservices .sundayschool h2 {
@@ -133,7 +133,7 @@
     margin-left: 19px;
   }
   body .mainservices .secondservice {
-    margin-top: -10.5%;
+    margin-top: -1.5%;
     width: 50%;
   }
   body .mainservices .secondservice h2 {
@@ -147,7 +147,7 @@
     margin-left: 19px;
   }
   body .mainservices .event1 {
-    margin-top: -3.5%;
+    margin-top: 10.5%;
     width: 50%;
   }
   body .mainservices .event1 h2 {
@@ -160,50 +160,20 @@
     margin-top: -12px;
     margin-left: 19px;
   }
-  body .mainservices .event2 {
-    margin-top: -3.5%;
-    width: 50%;
+  body .mainservices ul {
+    list-style: none;
+    width: 34%;
+    height: 50%;
+    margin-left: 1vw;
+    border: 1px solid lightgray;
+    padding-bottom: -10vh;
   }
-  body .mainservices .event2 h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .event2 .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event4 {
-    margin-top: -3.5%;
-    width: 50%;
-  }
-  body .mainservices .event4 h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .event4 .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event3 {
-    margin-top: -3.5%;
-    width: 50%;
-  }
-  body .mainservices .event3 h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .event3 .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .eventExpand {
-    margin-left: 2.5%;
+  body .mainservices ul li {
+    width: 48%;
+    font-size: xx-large;
+    height: 10vh;
+    display: inline-flex;
+    flex-wrap: wrap;
     cursor: pointer;
   }
   body .youngadults {
