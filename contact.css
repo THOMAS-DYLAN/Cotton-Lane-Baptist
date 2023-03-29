@@ -1,6 +1,11 @@
 @media only screen and (max-width: 480px) {
+  html {
+    background-color: gray;
+  }
   body {
-    background: gray;
+    position: absolute;
+    left: 0%;
+    top: 0%;
   }
   body::-webkit-scrollbar {
     display: none;
@@ -14,6 +19,7 @@
     width: 80%;
     position: absolute;
     left: 10%;
+    right: 10%;
     top: 1.2%;
     bottom: 5%;
   }

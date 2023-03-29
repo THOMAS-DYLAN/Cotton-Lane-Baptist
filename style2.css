@@ -1060,7 +1060,7 @@
     width: 98vw;
     position: absolute;
     left: -2.5vw;
-    margin-top: 17vh;
+    top: 2vh;
     text-align: center;
   }
   html body .welcome .welcomeheader {
@@ -1102,7 +1102,7 @@
     font-family: "Times New Roman", Times, serif;
   }
   html body .mainservices .sundayschool {
-    margin-top: -8.5%;
+    margin-top: -2.5%;
     width: 50%;
   }
   html body .mainservices .sundayschool h2 {
@@ -1116,7 +1116,7 @@
     margin-left: 19px;
   }
   html body .mainservices .secondservice {
-    margin-top: -8.5%;
+    margin-top: -2.5%;
     width: 50%;
   }
   html body .mainservices .secondservice h2 {
@@ -1130,7 +1130,7 @@
     margin-left: 19px;
   }
   html body .mainservices .event1 {
-    margin-top: -2.5%;
+    margin-top: 10.5%;
     width: 50%;
   }
   html body .mainservices .event1 h2 {
@@ -1143,53 +1143,21 @@
     margin-top: -12px;
     margin-left: 19px;
   }
-  html body .mainservices .event2 {
-    margin-top: -2.5%;
-    width: 50%;
+  html body .mainservices ul {
+    list-style: none;
+    width: 34%;
+    height: 50%;
+    margin-left: 1vw;
+    border: 1px solid lightgray;
+    padding-bottom: -10vh;
   }
-  html body .mainservices .event2 h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  html body .mainservices .event2 .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices .event3 {
-    margin-top: -2.5%;
-    width: 50%;
-  }
-  html body .mainservices .event3 h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  html body .mainservices .event3 .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices .event4 {
-    margin-top: -2.5%;
-    width: 50%;
-  }
-  html body .mainservices .event4 h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  html body .mainservices .event4 .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices .eventExpand {
+  html body .mainservices ul li {
+    width: 48%;
+    font-size: xx-large;
+    height: 20vh;
+    display: inline-flex;
+    flex-wrap: wrap;
     cursor: pointer;
-    margin-left: 5%;
-    position: relative;
-    top: 5%;
   }
   html body .youngadults {
     width: 48vw;
@@ -1295,4 +1263,4 @@
   html body::-webkit-scrollbar {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style2.css.map */

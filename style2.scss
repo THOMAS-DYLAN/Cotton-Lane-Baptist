@@ -729,7 +729,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			height: 60vh;
 			width: 98vw;
 			position: relative;
-			left: -.7vw;
+			left: -0.7vw;
 			text-align: center;
 			.welcomeheader {
 				color: $color_2;
@@ -849,7 +849,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 19px;
 				}
 			}
-			.eventExpand{
+			.eventExpand {
 				cursor: pointer;
 				margin-left: 5%;
 			}
@@ -858,7 +858,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			height: 30vh;
 			width: 31vw;
 			position: relative;
-			left: -.8vw;
+			left: -0.8vw;
 			border-radius: 20px;
 			img {
 				height: 100%;
@@ -1318,7 +1318,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				width: 98vw;
 				position: absolute;
 				left: -2.5vw;
-				margin-top: 17vh;
+				top: 2vh;
 				text-align: center;
 				.welcomeheader {
 					color: $color_2;
@@ -1338,7 +1338,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					border-radius: 15px;
 				}
 			}
-			.services1{
+			.services1 {
 				display: inline-flex;
 				margin-top: 44vw;
 			}
@@ -1359,7 +1359,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					font-family: $font-family_1;
 				}
 				.sundayschool {
-					margin-top: -8.5%;
+					margin-top: -2.5%;
 					width: 50%;
 					h2 {
 						font-size: 30px;
@@ -1373,7 +1373,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					}
 				}
 				.secondservice {
-					margin-top: -8.5%;
+					margin-top: -2.5%;
 					width: 50%;
 					h2 {
 						font-size: 30px;
@@ -1387,7 +1387,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					}
 				}
 				.event1 {
-					margin-top: -2.5%;
+					margin-top: 10.5%;
 					width: 50%;
 					h2 {
 						font-size: 30px;
@@ -1400,53 +1400,21 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 						margin-left: 19px;
 					}
 				}
-				.event2 {
-					margin-top: -2.5%;
-					width: 50%;
-					h2 {
-						font-size: 30px;
-						margin-left: 15px;
+				ul {
+					list-style: none;
+					width: 34%;
+					height: 50%;
+					margin-left: 1vw;
+					border: 1px solid lightgray;
+					padding-bottom: -10vh;
+					li {
+						width: 48%;
+						font-size: xx-large;
+						height: 20vh;
+						display: inline-flex;
+						flex-wrap: wrap;
+						cursor: pointer;
 					}
-					.time {
-						font-size: 25px;
-						font-weight: 100;
-						margin-top: -12px;
-						margin-left: 19px;
-					}
-				}
-				.event3 {
-					margin-top: -2.5%;
-					width: 50%;
-					h2 {
-						font-size: 30px;
-						margin-left: 15px;
-					}
-					.time {
-						font-size: 25px;
-						font-weight: 100;
-						margin-top: -12px;
-						margin-left: 19px;
-					}
-				}
-				.event4 {
-					margin-top: -2.5%;
-					width: 50%;
-					h2 {
-						font-size: 30px;
-						margin-left: 15px;
-					}
-					.time {
-						font-size: 25px;
-						font-weight: 100;
-						margin-top: -12px;
-						margin-left: 19px;
-					}
-				}
-				.eventExpand{
-					cursor: pointer;
-					margin-left: 5%;
-					position: relative;
-					top: 5%;
 				}
 			}
 			.youngadults {
@@ -1478,7 +1446,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					width: 250px;
 				}
 			}
-			.services2{
+			.services2 {
 				display: inline-flex;
 				margin-top: 1vh;
 				position: relative;
@@ -1509,7 +1477,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 9px;
 					position: relative;
 					bottom: 25%;
-					color:lightblue;
+					color: lightblue;
 					// background: rgba(100, 100, 100, 0.4);
 					width: 250px;
 				}
