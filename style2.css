@@ -452,7 +452,7 @@
   body .mainservices ul {
     list-style: none;
     width: 34%;
-    height: 50%;
+    height: 35%;
     margin-left: 1vw;
     border: 1px solid lightgray;
     padding-bottom: -10vh;
@@ -460,7 +460,7 @@
   body .mainservices ul li {
     width: 48%;
     font-size: xx-large;
-    height: 10vh;
+    height: 5vh;
     display: inline-flex;
     flex-wrap: wrap;
     cursor: pointer;
