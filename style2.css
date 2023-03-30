@@ -391,7 +391,7 @@
   }
   body .mainservices {
     background: white;
-    height: 50vh;
+    height: 40vh;
     width: 95vw;
     margin-left: 3.5vw;
     margin-right: 1vw;
@@ -452,7 +452,7 @@
   body .mainservices ul {
     list-style: none;
     width: 34%;
-    height: 35%;
+    height: 12%;
     margin-left: 1vw;
     border: 1px solid lightgray;
     padding-bottom: -10vh;
