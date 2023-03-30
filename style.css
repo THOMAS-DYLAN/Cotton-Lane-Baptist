@@ -224,7 +224,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 18%;
   }
   body .youngadults .time {
     font-size: 25px;
@@ -232,7 +232,7 @@
     margin-left: 9px;
     position: relative;
     bottom: 25%;
-    color: yellow;
+    color: lightblue;
   }
   body .men {
     height: 40vh;
@@ -252,7 +252,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 18%;
   }
   body .men .time {
     font-size: 25px;
@@ -260,7 +260,7 @@
     margin-left: 9px;
     position: relative;
     bottom: 25%;
-    color: yellow;
+    color: lightblue;
   }
   body .woman {
     height: 40vh;
@@ -280,7 +280,7 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 17%;
+    bottom: 18%;
   }
   body .woman .time {
     font-size: 25px;
@@ -288,35 +288,7 @@
     margin-left: 9px;
     position: relative;
     bottom: 25%;
-    color: yellow;
-  }
-  body .seniors {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 17%;
-  }
-  body .seniors .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: yellow;
+    color: lightblue;
   }
   body footer {
     width: 100vw;
@@ -1035,7 +1007,7 @@
     margin-left: 2%;
     padding-right: 18%;
     position: absolute;
-    top: 2vh;
+    top: 1.75vh;
     left: 1%;
   }
   html body nav ul {
@@ -1045,7 +1017,7 @@
     list-style: none;
     margin-left: 35%;
     position: absolute;
-    top: 1vh;
+    top: 0.5vh;
   }
   html body nav ul a {
     color: black;
@@ -1187,7 +1159,7 @@
   }
   html body .mainservices .eventExpand {
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: 3%;
     position: relative;
     top: 5%;
   }
