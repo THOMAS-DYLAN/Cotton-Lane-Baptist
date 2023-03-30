@@ -165,7 +165,6 @@
     width: 34%;
     height: 50%;
     margin-left: 1vw;
-    border: 1px solid lightgray;
     padding-bottom: -10vh;
   }
   body .mainservices ul li {
@@ -290,11 +289,12 @@
   }
   body footer {
     width: 100vw;
-    height: 15vh;
+    height: 1vh;
     margin-left: 1vw;
-    margin-top: 5vh;
+    margin-top: 1vh;
     background-color: black;
     color: white;
+    visibility: hidden;
   }
   body::-webkit-scrollbar {
     display: none;
@@ -454,7 +454,6 @@
     width: 34%;
     height: 12%;
     margin-left: 1vw;
-    border: 1px solid lightgray;
     padding-bottom: -10vh;
   }
   body .mainservices ul li {
@@ -579,11 +578,12 @@
   }
   body footer {
     width: 100vw;
-    height: 15vh;
+    height: 1vh;
     margin-left: 1vw;
-    margin-top: 5vh;
+    margin-top: 1vh;
     background-color: black;
     color: white;
+    visibility: hidden;
   }
   body::-webkit-scrollbar {
     display: none;
@@ -701,6 +701,7 @@
   body .mainservices .sundayschool {
     margin-top: -3%;
     width: 50%;
+    margin-left: 5%;
   }
   body .mainservices .sundayschool h2 {
     font-size: 25px;
@@ -729,6 +730,7 @@
   body .mainservices .event1 {
     margin-top: 6%;
     width: 48%;
+    margin-left: 5%;
   }
   body .mainservices .event1 h2 {
     font-size: 25px;
@@ -745,7 +747,6 @@
     width: 34%;
     height: 50%;
     margin-left: 1vw;
-    border: 1px solid lightgray;
     padding-bottom: -10vh;
   }
   body .mainservices ul li {
@@ -840,11 +841,12 @@
   }
   body footer {
     width: 100vw;
-    height: 15vh;
+    height: 1vh;
     margin-left: 1vw;
-    margin-top: 5vh;
+    margin-top: 1vh;
     background-color: black;
     color: white;
+    visibility: hidden;
   }
   body::-webkit-scrollbar {
     display: none;
@@ -945,7 +947,7 @@
     margin-left: 2%;
     padding-right: 18%;
     position: absolute;
-    top: 2vh;
+    top: 2.5vh;
     left: 1%;
   }
   html body nav ul {
@@ -1013,7 +1015,8 @@
   }
   html body .mainservices .sundayschool {
     margin-top: -2.5%;
-    width: 50%;
+    width: 45%;
+    margin-left: 5%;
   }
   html body .mainservices .sundayschool h2 {
     font-size: 30px;
@@ -1041,7 +1044,8 @@
   }
   html body .mainservices .event1 {
     margin-top: 10.5%;
-    width: 50%;
+    width: 45%;
+    margin-left: 5%;
   }
   html body .mainservices .event1 h2 {
     font-size: 30px;
@@ -1058,8 +1062,8 @@
     width: 34%;
     height: 50%;
     margin-left: 1vw;
-    border: 1px solid lightgray;
     padding-bottom: -10vh;
+    cursor: default;
   }
   html body .mainservices ul li {
     width: 48%;
@@ -1067,6 +1071,7 @@
     height: 20vh;
     display: inline-flex;
     flex-wrap: wrap;
+    cursor: pointer;
     cursor: pointer;
   }
   html body .youngadults {
@@ -1163,12 +1168,13 @@
   }
   html body footer {
     width: 100vw;
-    height: 15vh;
+    height: 1vh;
     position: absolute;
     left: -1vw;
-    margin-top: 111%;
+    margin-top: 103%;
     background-color: black;
     color: white;
+    visibility: hidden;
   }
   html body::-webkit-scrollbar {
     display: none;
