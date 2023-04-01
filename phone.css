@@ -1,0 +1,39 @@
+body {
+  display: inline-flex;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .contacts {
+  width: 50vw;
+  height: 100vh;
+  border-right: 2px solid black;
+  text-align: center;
+}
+body .socials {
+  width: 50vw;
+  height: 100vh;
+  border-left: 2px solid black;
+  display: inline;
+  flex-wrap: wrap;
+}
+body .socials .social {
+  font-size: 25px;
+  display: inline-flex;
+  width: 55vw;
+  margin-top: -12px;
+  margin-left: 10px;
+}
+body .socials .social h3 {
+  position: relative;
+  top: 12px;
+}
+body .socials .social img {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 12px;
+}/*# sourceMappingURL=phone.css.map */
