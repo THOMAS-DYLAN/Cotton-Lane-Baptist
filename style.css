@@ -1252,7 +1252,7 @@
     margin-left: 2%;
     padding-right: 18%;
     position: absolute;
-    top: 1.75vh;
+    top: 4.7vh;
     left: 1%;
   }
   html body nav ul {
@@ -1260,9 +1260,9 @@
     display: inline-flex;
     visibility: visible;
     list-style: none;
-    margin-left: 35%;
+    margin-left: 60%;
     position: absolute;
-    top: 0.5vh;
+    top: 6vh;
   }
   html body nav ul a {
     color: black;
@@ -1308,6 +1308,7 @@
     height: 30vw;
     position: relative;
     left: -2.5vw;
+    top: -2vh;
     border-radius: 20px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -1414,6 +1415,7 @@
     height: 30vw;
     position: relative;
     left: -5vw;
+    top: -2vh;
     border-radius: 20px;
   }
   html body .youngadults img {
@@ -1448,7 +1450,7 @@
     height: 27vw;
     position: relative;
     left: -5.5vh;
-    margin-top: 2vh;
+    margin-top: -2vh;
     border-radius: 20px;
   }
   html body .men img {
@@ -1477,7 +1479,7 @@
     height: 27vw;
     position: relative;
     left: -69.5vw;
-    margin-top: 2vh;
+    margin-top: -2vh;
     border-radius: 20px;
   }
   html body .woman img {
@@ -1506,7 +1508,7 @@
     height: 15vh;
     position: absolute;
     left: -1vw;
-    margin-top: 111%;
+    margin-top: 109%;
     background-color: black;
     color: white;
   }
