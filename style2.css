@@ -944,7 +944,7 @@
     height: 30vw;
     position: relative;
     left: -2.5vw;
-    top: 4vh;
+    top: 1vh;
     border-radius: 20px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -1022,7 +1022,7 @@
     height: 30vw;
     position: relative;
     left: -5vw;
-    top: 4vh;
+    top: 1vh;
     border-radius: 20px;
   }
   html body .youngadults img {
