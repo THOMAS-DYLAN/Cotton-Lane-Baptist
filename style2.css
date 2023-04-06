@@ -936,7 +936,7 @@
   }
   html body .services1 {
     display: inline-flex;
-    margin-top: 44vw;
+    margin-top: 52vw;
   }
   html body .mainservices {
     background: white;
@@ -944,7 +944,6 @@
     height: 30vw;
     position: relative;
     left: -2.5vw;
-    top: 1vh;
     border-radius: 20px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -991,7 +990,7 @@
     margin-left: 5%;
   }
   html body .mainservices .event1 h2 {
-    font-size: 30px;
+    font-size: 27px;
     margin-left: 15px;
   }
   html body .mainservices .event1 .time {
@@ -1003,15 +1002,14 @@
   html body .mainservices ul {
     list-style: none;
     width: 34%;
-    height: 50%;
+    height: 40%;
     margin-left: 1vw;
-    padding-bottom: -10vh;
     cursor: default;
   }
   html body .mainservices ul li {
     width: 48%;
     font-size: xx-large;
-    height: 20vh;
+    height: 10vh;
     display: inline-flex;
     flex-wrap: wrap;
     cursor: pointer;
@@ -1022,7 +1020,6 @@
     height: 30vw;
     position: relative;
     left: -5vw;
-    top: 1vh;
     border-radius: 20px;
   }
   html body .youngadults img {
@@ -1035,90 +1032,76 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 18%;
+    bottom: 20%;
   }
   html body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 23%;
+    bottom: 26%;
     color: lightblue;
     width: 250px;
   }
   html body .services2 {
     display: inline-flex;
-    margin-top: 1vh;
+    margin-top: 16vh;
     position: relative;
-    left: 0;
+    left: -34.5vw;
   }
   html body .men {
     width: 48vw;
-    height: 27vw;
-    position: relative;
-    left: -5.5vh;
-    margin-top: 4vh;
+    height: 30vw;
     border-radius: 20px;
   }
   html body .men img {
     height: 100%;
     width: 100%;
-    border-radius: 20px;
+    margin-top: 15vh;
   }
   html body .men h2 {
     font-size: 35px;
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 21%;
+    bottom: 24%;
   }
   html body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 29.5%;
     color: lightblue;
     width: 250px;
   }
   html body .woman {
     width: 48vw;
-    height: 27vw;
-    position: relative;
-    left: -69.5vw;
-    margin-top: 4vh;
+    height: 30vw;
     border-radius: 20px;
+    position: relative;
+    left: -35vw;
   }
   html body .woman img {
     height: 100%;
     width: 100%;
-    border-radius: 20px;
+    margin-top: 15vh;
   }
   html body .woman h2 {
     font-size: 35px;
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 21%;
+    bottom: 24%;
   }
   html body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 25%;
+    bottom: 29.5%;
     color: lightblue;
     width: 250px;
-  }
-  html body footer {
-    width: 100vw;
-    height: 1vh;
-    position: absolute;
-    left: -1vw;
-    margin-top: 103%;
-    background-color: black;
-    color: white;
-    visibility: hidden;
   }
   html body::-webkit-scrollbar {
     display: none;
