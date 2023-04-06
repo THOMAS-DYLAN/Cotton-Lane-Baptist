@@ -947,6 +947,7 @@
     border-radius: 20px;
     display: inline-flex;
     flex-wrap: wrap;
+    z-index: 2;
   }
   html body .mainservices h3 {
     font-size: 45px;
@@ -1006,10 +1007,10 @@
     margin-left: 1vw;
     cursor: default;
   }
-  html body .mainservices ul li {
+  html body .mainservices ul a {
     width: 48%;
     font-size: xx-large;
-    height: 10vh;
+    height: 15vh;
     display: inline-flex;
     flex-wrap: wrap;
     cursor: pointer;
