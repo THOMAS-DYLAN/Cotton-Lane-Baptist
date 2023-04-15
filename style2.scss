@@ -154,7 +154,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 			}
 			.event1 {
-				margin-top: 10.5%;
+				margin-top: 5%;
 				width: 50%;
 				h2 {
 					font-size: 20px;
@@ -172,12 +172,11 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				width: 34%;
 				height: 50%;
 				margin-left: 1vw;
-				border: 1px solid lightgray;
 				padding-bottom: -10vh;
 				li {
-					width: 48%;
+					width: 40%;
 					font-size: xx-large;
-					height: 10vh;
+					height: 5vh;
 					display: inline-flex;
 					flex-wrap: wrap;
 					cursor: pointer;
@@ -298,11 +297,12 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 		}
 		footer {
 			width: 100vw;
-			height: 15vh;
+			height: 1vh;
 			margin-left: 1vw;
-			margin-top: 5vh;
+			margin-top: 1vh;
 			background-color: $background-color_1;
 			color: $color_2;
+			visibility: hidden;
 		}
 		&::-webkit-scrollbar {
 			display: none;
@@ -399,7 +399,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 		}
 		.mainservices {
 			background: white;
-			height: 50vh;
+			height: 40vh;
 			width: 95vw;
 			margin-left: 3.5vw;
 			margin-right: 1vw;
@@ -415,7 +415,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				font-family: $font-family_1;
 			}
 			.sundayschool {
-				margin-top: -10.5%;
+				margin-top: -5.5%;
 				width: 48%;
 				h2 {
 					font-size: 25px;
@@ -429,7 +429,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 			}
 			.secondservice {
-				margin-top: -10.5%;
+				margin-top: -5.5%;
 				width: 50%;
 				h2 {
 					font-size: 25px;
@@ -443,7 +443,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 			}
 			.event1 {
-				margin-top: -5.5%;
+				margin-top: 10%;
 				width: 48%;
 				h2 {
 					font-size: 25px;
@@ -456,51 +456,20 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 19px;
 				}
 			}
-			.event2 {
-				margin-top: -5.5%;
-				width: 50%;
-				h2 {
-					font-size: 25px;
-					margin-left: 15px;
+			ul {
+				list-style: none;
+				width: 34%;
+				height: 12%;
+				margin-left: 1vw;
+				padding-bottom: -10vh;
+				li {
+					width: 48%;
+					font-size: xx-large;
+					height: 5vh;
+					display: inline-flex;
+					flex-wrap: wrap;
+					cursor: pointer;
 				}
-				.time {
-					font-size: 20px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.event3 {
-				margin-top: -5.5%;
-				width: 48%;
-				h2 {
-					font-size: 25px;
-					margin-left: 15px;
-				}
-				.time {
-					font-size: 20px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.event4 {
-				margin-top: -5.5%;
-				width: 50%;
-				h2 {
-					font-size: 25px;
-					margin-left: 15px;
-				}
-				.time {
-					font-size: 20px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.eventExpand {
-				margin-left: 5%;
-				cursor: pointer;
 			}
 		}
 		.youngadults {
@@ -617,11 +586,12 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 		}
 		footer {
 			width: 100vw;
-			height: 15vh;
+			height: 1vh;
 			margin-left: 1vw;
-			margin-top: 5vh;
+			margin-top: 1vh;
 			background-color: $background-color_1;
 			color: $color_2;
+			visibility: hidden;
 		}
 		&::-webkit-scrollbar {
 			display: none;
@@ -736,8 +706,9 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				font-family: $font-family_1;
 			}
 			.sundayschool {
-				margin-top: -7%;
-				width: 50%;
+				margin-top: -3%;
+				width: 43%;
+				margin-left: 9%;
 				h2 {
 					font-size: 25px;
 					margin-left: 15px;
@@ -750,8 +721,8 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 			}
 			.secondservice {
-				margin-top: -7%;
-				width: 50%;
+				margin-top: -3%;
+				width: 40%;
 				h2 {
 					font-size: 25px;
 					margin-left: 15px;
@@ -764,8 +735,9 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 			}
 			.event1 {
-				margin-top: -5.5%;
-				width: 50%;
+				margin-top: 12%;
+				width: 41%;
+				margin-left: 9%;
 				h2 {
 					font-size: 25px;
 					margin-left: 15px;
@@ -777,51 +749,20 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 19px;
 				}
 			}
-			.event2 {
-				margin-top: -5.5%;
-				width: 50%;
-				h2 {
-					font-size: 25px;
-					margin-left: 15px;
+			ul {
+				list-style: none;
+				width: 34%;
+				height: 50%;
+				margin-left: 1vw;
+				padding-bottom: -10vh;
+				li {
+					width: 48%;
+					font-size: xx-large;
+					height: 10vh;
+					display: inline-flex;
+					flex-wrap: wrap;
+					cursor: pointer;
 				}
-				.time {
-					font-size: 20px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.event3 {
-				margin-top: -5.5%;
-				width: 50%;
-				h2 {
-					font-size: 25px;
-					margin-left: 15px;
-				}
-				.time {
-					font-size: 20px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.event4 {
-				margin-top: -5.5%;
-				width: 50%;
-				h2 {
-					font-size: 25px;
-					margin-left: 15px;
-				}
-				.time {
-					font-size: 20px;
-					font-weight: 100;
-					margin-top: -12px;
-					margin-left: 19px;
-				}
-			}
-			.eventExpand {
-				cursor: pointer;
-				margin-left: 5%;
 			}
 		}
 		.youngadults {
@@ -908,11 +849,12 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 		}
 		footer {
 			width: 100vw;
-			height: 15vh;
+			height: 1vh;
 			margin-left: 1vw;
-			margin-top: 5vh;
+			margin-top: 1vh;
 			background-color: $background-color_1;
 			color: $color_2;
+			visibility: hidden;
 		}
 		&::-webkit-scrollbar {
 			display: none;
@@ -921,310 +863,260 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 }
 @media only screen and (min-width: 1024px) {
 	html {
-		background-color: $background-color_1;
-	}
-	body {
-		-ms-overflow-style: none;
-		scrollbar-width: hidden;
-		// width: 102%;
-		// position: absolute;
-		// left: -1vw;
-		// top: -1vw;
-		background: url("./imgs/cross.jfif");
-		background-repeat: no-repeat;
-		background-size: cover;
-		display: inline-flex;
-		flex-wrap: wrap;
-		scrollbar-width: none;
-		nav {
-			display: inline-flex;
-			width: 100vw;
-			height: 10%;
-			position: sticky;
+		background-color: red;
+		body {
+			-ms-overflow-style: none;
+			scrollbar-width: hidden;
+			width: 100%;
+			position: absolute;
 			left: 0;
-			top: 0;
-			background-color: $background-color_2;
-			border: 2px solid rgba(0, 0, 0, 0.5);
-			z-index: 2000;
-			.expand {
-				display: none;
-			}
-			h2 {
-				width: 50%;
+			background: transparent;
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: inline-flex;
+			flex-wrap: wrap;
+			scrollbar-width: none;
+			nav {
 				display: inline-flex;
-				padding-right: 18%;
-				margin-top: 2.5vh;
+				height: 15vh;
+				width: 103vw;
 				position: absolute;
-				left: 1%;
-			}
-			ul {
-				width: 50%;
-				display: inline-flex;
-				visibility: visible;
-				list-style: none;
-				position: absolute;
-				top: 3%;
-				left: 30%;
-				a {
-					color: $color_1;
-					text-decoration: none;
-					margin-top: 5vh;
-					li {
-						margin-left: 20px;
+				left: 0;
+				top: 0;
+				background-color: $background-color_2;
+				border: 2px solid rgba(0, 0, 0, 0.5);
+				z-index: 2000;
+				.expand {
+					display: none;
+				}
+				h2 {
+					width: 50%;
+					display: inline-flex;
+					margin-left: 2%;
+					padding-right: 18%;
+					position: absolute;
+					top: 2.5vh;
+					left: 1%;
+				}
+				ul {
+					width: 50%;
+					display: inline-flex;
+					visibility: visible;
+					list-style: none;
+					margin-left: 35%;
+					position: absolute;
+					top: 1vh;
+					a {
 						color: $color_1;
+						text-decoration: none;
+						li {
+							margin-left: 18px;
+							color: $color_1;
+						}
 					}
 				}
 			}
-		}
-		// .welcome {
-		// 	height: 90vh;
-		// 	width: 98vw;
-		// 	margin-left: 3vw;
-		// 	margin-right: 1vw;
-		// 	margin-top: 2vh;
-		// 	text-align: center;
-		// 	.welcomeheader {
-		// 		color: $color_2;
-		// 		margin-top: -65vh;
-		// 		font-size: 75px;
-		// 		position: relative;
-		// 	}
-		// 	.nameheader {
-		// 		color: $color_3;
-		// 		font-size: 70px;
-		// 		margin-top: 25vh;
-		// 		position: relative;
-		// 	}
-		// 	img {
-		// 		height: 100%;
-		// 		width: 100%;
-		// 		border-radius: 15px;
-		// 	}
-		// }
-		// .mainservices {
-		// 	background: white;
-		// 	width: 45vw;
-		// 	height: 25vw;
-		// 	margin-left: 3vw;
-		// 	margin-top: 1vh;
-		// 	border-radius: 20px;
-		// 	display: inline-flex;
-		// 	flex-wrap: wrap;
-		// 	h3 {
-		// 		font-size: 45px;
-		// 		margin-left: 12px;
-		// 		margin-top: 8px;
-		// 		width: 70%;
-		// 		font-family: $font-family_1;
-		// 	}
-		// 	.sundayschool {
-		// 		margin-top: -8.5%;
-		// 		width: 50%;
-		// 		h2 {
-		// 			font-size: 25px;
-		// 			margin-left: 15px;
-		// 		}
-		// 		.time {
-		// 			font-size: 20px;
-		// 			font-weight: 100;
-		// 			margin-top: -12px;
-		// 			margin-left: 19px;
-		// 		}
-		// 	}
-		// 	.secondservice {
-		// 		margin-top: -8.5%;
-		// 		width: 50%;
-		// 		h2 {
-		// 			font-size: 25px;
-		// 			margin-left: 15px;
-		// 		}
-		// 		.time {
-		// 			font-size: 20px;
-		// 			font-weight: 100;
-		// 			margin-top: -12px;
-		// 			margin-left: 19px;
-		// 		}
-		// 	}
-		// 	.event1 {
-		// 		margin-top: -5.5%;
-		// 		width: 50%;
-		// 		h2 {
-		// 			font-size: 25px;
-		// 			margin-left: 15px;
-		// 		}
-		// 		.time {
-		// 			font-size: 20px;
-		// 			font-weight: 100;
-		// 			margin-top: -12px;
-		// 			margin-left: 19px;
-		// 		}
-		// 	}
-		// 	.event2 {
-		// 		margin-top: -5.5%;
-		// 		width: 50%;
-		// 		h2 {
-		// 			font-size: 25px;
-		// 			margin-left: 15px;
-		// 		}
-		// 		.time {
-		// 			font-size: 20px;
-		// 			font-weight: 100;
-		// 			margin-top: -12px;
-		// 			margin-left: 19px;
-		// 		}
-		// 	}
-		// 	.event3 {
-		// 		margin-top: -5.5%;
-		// 		width: 50%;
-		// 		h2 {
-		// 			font-size: 25px;
-		// 			margin-left: 15px;
-		// 		}
-		// 		.time {
-		// 			font-size: 20px;
-		// 			font-weight: 100;
-		// 			margin-top: -12px;
-		// 			margin-left: 19px;
-		// 		}
-		// 	}
-		// 	.event4 {
-		// 		margin-top: -5.5%;
-		// 		width: 50%;
-		// 		h2 {
-		// 			font-size: 25px;
-		// 			margin-left: 15px;
-		// 		}
-		// 		.time {
-		// 			font-size: 20px;
-		// 			font-weight: 100;
-		// 			margin-top: -12px;
-		// 			margin-left: 19px;
-		// 		}
-		// 	}
-		// 	.eventExpand{
-		// 		margin-left: 5%;
-		// 		cursor: pointer;
-		// 	}
-		// }
-		// .youngadults {
-		// 	width: 51vw;
-		// 	height: 27vw;
-		// 	margin-left: 2vw;
-		// 	margin-top: 1vh;
-		// 	border-radius: 20px;
-		// 	img {
-		// 		height: 100%;
-		// 		width: 100%;
-		// 		border-radius: 20px;
-		// 	}
-		// 	h2 {
-		// 		font-size: 35px;
-		// 		margin-left: 5px;
-		// 		color: $color_2;
-		// 		position: relative;
-		// 		bottom: 43%;
-		// 	}
-		// 	.time {
-		// 		font-size: 25px;
-		// 		font-weight: 100;
-		// 		margin-left: 9px;
-		// 		position: relative;
-		// 		bottom: 53%;
-		// 		color: $color_5;
-		// 	}
-		// }
-		// .men {
-		// 	width: 47vw;
-		// 	height: 35vw;
-		// 	margin-left: 23vw;
-		// 	margin-top: -2vh;
-		// 	border-radius: 20px;
-		// 	img {
-		// 		height: 100%;
-		// 		width: 100%;
-		// 		border-radius: 20px;
-		// 	}
-		// 	h2 {
-		// 		font-size: 35px;
-		// 		margin-left: 5px;
-		// 		color: $color_2;
-		// 		position: relative;
-		// 		bottom: 30%;
-		// 	}
-		// 	.time {
-		// 		font-size: 25px;
-		// 		font-weight: 100;
-		// 		margin-left: 9px;
-		// 		position: relative;
-		// 		bottom: 40%;
-		// 		color: $color_5;
-		// 	}
-		// }
-		// .woman {
-		// 	width: 50.5vw;
-		// 	height: 33.5vw;
-		// 	margin-left: 1vw;
-		// 	margin-top: 1vh;
-		// 	border-radius: 20px;
-		// 	img {
-		// 		height: 100%;
-		// 		width: 100%;
-		// 		border-radius: 20px;
-		// 	}
-		// 	h2 {
-		// 		font-size: 35px;
-		// 		margin-left: 5px;
-		// 		color: $color_2;
-		// 		position: relative;
-		// 		bottom: 33%;
-		// 	}
-		// 	.time {
-		// 		font-size: 25px;
-		// 		font-weight: 100;
-		// 		margin-left: 9px;
-		// 		position: relative;
-		// 		bottom: 43%;
-		// 		color: $color_5;
-		// 	}
-		// }
-		// .seniors {
-		// 	width: 98vw;
-		// 	height: 30vw;
-		// 	margin-left: 3vw;
-		// 	margin-right: 1vw;
-		// 	margin-top: 1vh;
-		// 	border-radius: 20px;
-		// 	img {
-		// 		height: 100%;
-		// 		width: 100%;
-		// 		border-radius: 20px;
-		// 	}
-		// 	h2 {
-		// 		font-size: 35px;
-		// 		margin-left: 5px;
-		// 		color: $color_2;
-		// 		position: relative;
-		// 		bottom: 18%;
-		// 	}
-		// 	.time {
-		// 		font-size: 25px;
-		// 		font-weight: 100;
-		// 		margin-left: 9px;
-		// 		position: relative;
-		// 		bottom: 22%;
-		// 		color: $color_4;
-		// 	}
-		// }
-		// footer {
-		// 	width: 100vw;
-		// 	height: 15vh;
-		// 	margin-left: 1vw;
-		// 	margin-top: 5vh;
-		// 	background-color: $background-color_1;
-		// 	color: $color_2;
-		// }
-		&::-webkit-scrollbar {
-			display: none;
+			.welcome {
+				height: 90vh;
+				width: 98vw;
+				position: absolute;
+				left: -2.5vw;
+				top: 2vh;
+				text-align: center;
+				.welcomeheader {
+					color: $color_2;
+					margin-top: -70vh;
+					font-size: 75px;
+					position: relative;
+				}
+				.nameheader {
+					color: $color_3;
+					font-size: 70px;
+					margin-top: 20vh;
+					position: relative;
+				}
+				img {
+					height: 100%;
+					width: 100%;
+					border-radius: 15px;
+				}
+			}
+			.services1 {
+				display: inline-flex;
+				margin-top: 52vw;
+			}
+			.mainservices {
+				background: white;
+				width: 48vw;
+				height: 30vw;
+				position: relative;
+				left: -2.5vw;
+				border-radius: 20px;
+				display: inline-flex;
+				flex-wrap: wrap;
+				z-index: 2;
+				h3 {
+					font-size: 45px;
+					margin-left: 12px;
+					margin-top: 8px;
+					width: 100%;
+					font-family: $font-family_1;
+				}
+				.sundayschool {
+					margin-top: -2.5%;
+					width: 45%;
+					margin-left: 5%;
+					h2 {
+						font-size: 30px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				.secondservice {
+					margin-top: -2.5%;
+					width: 50%;
+					h2 {
+						font-size: 30px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				.event1 {
+					margin-top: 10.5%;
+					width: 45%;
+					margin-left: 5%;
+					h2 {
+						font-size: 27px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				ul {
+					list-style: none;
+					width: 34%;
+					height: 40%;
+					margin-left: 1vw;
+					cursor: default;
+					a{
+						width: 48%;
+						font-size: xx-large;
+						height: 15vh;
+						display: inline-flex;
+						flex-wrap: wrap;
+						cursor: pointer;
+						cursor: pointer;
+					}
+				}
+			}
+			.youngadults {
+				width: 48vw;
+				height: 30vw;
+				position: relative;
+				left: -5vw;
+				border-radius: 20px;
+				img {
+					height: 100%;
+					width: 100%;
+					border-radius: 20px;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: $color_2;
+					position: relative;
+					bottom: 20%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 26%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			.services2 {
+				display: inline-flex;
+				margin-top: 16vh;
+				position: relative;
+				left: -34.5vw;
+			}
+			.men {
+				width: 48vw;
+				height: 30vw;
+				border-radius: 20px;
+				img {
+					height: 100%;
+					width: 100%;
+					margin-top: 15vh;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: white;
+					position: relative;
+					bottom: 24%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 29.5%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			.woman {
+				width: 48vw;
+				height: 30vw;
+				border-radius: 20px;
+				position: relative;
+				left: -35vw;
+				img {
+					height: 100%;
+					width: 100%;
+					margin-top: 15vh;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: white;
+					position: relative;
+					bottom: 24%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 29.5%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			&::-webkit-scrollbar {
+				display: none;
+			}
 		}
 	}
 }
@@ -1262,7 +1154,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 2%;
 					padding-right: 18%;
 					position: absolute;
-					top: 2vh;
+					top: 2.5vh;
 					left: 1%;
 				}
 				ul {
@@ -1330,7 +1222,8 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 				.sundayschool {
 					margin-top: -2.5%;
-					width: 50%;
+					width: 45%;
+					margin-left: 5%;
 					h2 {
 						font-size: 30px;
 						margin-left: 15px;
@@ -1358,7 +1251,8 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 				.event1 {
 					margin-top: 10.5%;
-					width: 50%;
+					width: 45%;
+					margin-left: 5%;
 					h2 {
 						font-size: 30px;
 						margin-left: 15px;
@@ -1375,14 +1269,15 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					width: 34%;
 					height: 50%;
 					margin-left: 1vw;
-					border: 1px solid lightgray;
 					padding-bottom: -10vh;
+					cursor: default;
 					li {
 						width: 48%;
 						font-size: xx-large;
 						height: 20vh;
 						display: inline-flex;
 						flex-wrap: wrap;
+						cursor: pointer;
 						cursor: pointer;
 					}
 				}
@@ -1484,12 +1379,13 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			}
 			footer {
 				width: 100vw;
-				height: 15vh;
+				height: 1vh;
 				position: absolute;
 				left: -1vw;
-				margin-top: 111%;
+				margin-top: 103%;
 				background-color: $background-color_1;
 				color: $color_2;
+				visibility: hidden;
 			}
 			&::-webkit-scrollbar {
 				display: none;
