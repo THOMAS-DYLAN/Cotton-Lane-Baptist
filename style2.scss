@@ -870,7 +870,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			width: 100%;
 			position: absolute;
 			left: 0;
-			background: transparent;
+			background: url("./imgs/cross.jfif");
 			background-repeat: no-repeat;
 			background-size: cover;
 			display: inline-flex;
@@ -946,7 +946,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-top: 52vw;
 			}
 			.mainservices {
-				background: white;
+				background: red;
 				width: 48vw;
 				height: 30vw;
 				position: relative;
@@ -1313,7 +1313,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			}
 			.services2 {
 				display: inline-flex;
-				margin-top: 1vh;
+				margin-top: 17vh;
 				position: relative;
 				left: 0;
 			}
@@ -1322,7 +1322,6 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				height: 27vw;
 				position: relative;
 				left: -5.5vh;
-				margin-top: 2vh;
 				border-radius: 20px;
 				img {
 					height: 100%;
@@ -1352,7 +1351,6 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				height: 27vw;
 				position: relative;
 				left: -69.5vw;
-				margin-top: 2vh;
 				border-radius: 20px;
 				img {
 					height: 100%;
