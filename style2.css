@@ -862,7 +862,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    background: transparent;
+    background: url("./imgs/cross.jfif");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-flex;
@@ -939,7 +939,7 @@
     margin-top: 52vw;
   }
   html body .mainservices {
-    background: white;
+    background: red;
     width: 48vw;
     height: 30vw;
     position: relative;
@@ -1302,7 +1302,7 @@
   }
   html body .services2 {
     display: inline-flex;
-    margin-top: 1vh;
+    margin-top: 17vh;
     position: relative;
     left: 0;
   }
@@ -1311,7 +1311,6 @@
     height: 27vw;
     position: relative;
     left: -5.5vh;
-    margin-top: 2vh;
     border-radius: 20px;
   }
   html body .men img {
@@ -1340,7 +1339,6 @@
     height: 27vw;
     position: relative;
     left: -69.5vw;
-    margin-top: 2vh;
     border-radius: 20px;
   }
   html body .woman img {
