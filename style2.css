@@ -862,7 +862,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    background-color: transparent;
+    background: transparent;
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-flex;
