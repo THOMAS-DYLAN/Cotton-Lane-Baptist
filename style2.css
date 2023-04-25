@@ -147,7 +147,7 @@
     margin-left: 19px;
   }
   body .mainservices .event1 {
-    margin-top: 5%;
+    margin-top: 7%;
     width: 50%;
   }
   body .mainservices .event1 h2 {
@@ -165,7 +165,7 @@
     width: 34%;
     height: 50%;
     margin-left: 1vw;
-    padding-bottom: -10vh;
+    margin-bottom: -10vh;
   }
   body .mainservices ul li {
     width: 40%;
@@ -193,14 +193,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 14.5%;
+    bottom: 12.5%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 23%;
+    bottom: 21%;
     color: lightblue;
   }
   body .men {
@@ -221,14 +221,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 14.5%;
+    bottom: 12.5%;
   }
   body .men .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 23%;
+    bottom: 21%;
     color: lightblue;
   }
   body .woman {
@@ -249,14 +249,14 @@
     margin-left: 5px;
     color: white;
     position: relative;
-    bottom: 14.5%;
+    bottom: 12.5%;
   }
   body .woman .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 23%;
+    bottom: 21%;
     color: lightblue;
   }
   body .seniors {
