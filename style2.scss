@@ -1,7 +1,7 @@
 $color_1: black;
 $color_2: white;
 $color_3: rgb(240, 240, 240);
-$color_4: yellow;
+$color_4: lightblue;
 $color_5: rgb(236, 225, 225);
 $font-family_1: "Times New Roman", Times, serif;
 $background-color_1: black;
@@ -200,14 +200,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 17%;
+				bottom: 14.5%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 25%;
+				bottom: 23%;
 				color: $color_4;
 			}
 		}
@@ -228,14 +228,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 17%;
+				bottom: 14.5%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 25%;
+				bottom: 23%;
 				color: $color_4;
 			}
 		}
@@ -256,14 +256,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 17%;
+				bottom: 14.5%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 25%;
+				bottom: 23%;
 				color: $color_4;
 			}
 		}
@@ -443,7 +443,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				}
 			}
 			.event1 {
-				margin-top: 10%;
+				margin-top: 7%;
 				width: 48%;
 				h2 {
 					font-size: 25px;
@@ -461,7 +461,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				width: 34%;
 				height: 12%;
 				margin-left: 1vw;
-				padding-bottom: -10vh;
+				margin-bottom: -10vh;
 				li {
 					width: 48%;
 					font-size: xx-large;
@@ -489,14 +489,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 18%;
+				bottom: 15.5%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 25%;
+				bottom: 23%;
 				color: $color_4;
 			}
 		}
@@ -517,14 +517,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 18%;
+				bottom: 15.5%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 25%;
+				bottom: 23%;
 				color: $color_4;
 			}
 		}
@@ -545,14 +545,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				margin-left: 5px;
 				color: $color_2;
 				position: relative;
-				bottom: 18%;
+				bottom: 15.5%;
 			}
 			.time {
 				font-size: 25px;
 				font-weight: 100;
 				margin-left: 9px;
 				position: relative;
-				bottom: 25%;
+				bottom: 23%;
 				color: $color_4;
 			}
 		}
@@ -921,7 +921,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				width: 98vw;
 				position: absolute;
 				left: -2.5vw;
-				top: 2vh;
+				top: 1vh;
 				text-align: center;
 				.welcomeheader {
 					color: $color_2;
@@ -943,7 +943,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			}
 			.services1 {
 				display: inline-flex;
-				margin-top: 52vw;
+				margin-top: 51vw;
 			}
 			.mainservices {
 				background: white;
@@ -1039,14 +1039,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 5px;
 					color: $color_2;
 					position: relative;
-					bottom: 20%;
+					bottom: 20.5%;
 				}
 				.time {
 					font-size: 25px;
 					font-weight: 100;
 					margin-left: 9px;
 					position: relative;
-					bottom: 26%;
+					bottom: 26.5%;
 					color: lightblue;
 					// background: rgba(100, 100, 100, 0.4);
 					width: 250px;
@@ -1072,14 +1072,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 5px;
 					color: white;
 					position: relative;
-					bottom: 24%;
+					bottom: 22%;
 				}
 				.time {
 					font-size: 25px;
 					font-weight: 100;
 					margin-left: 9px;
 					position: relative;
-					bottom: 29.5%;
+					bottom: 27%;
 					color: lightblue;
 					// background: rgba(100, 100, 100, 0.4);
 					width: 250px;
@@ -1101,18 +1101,27 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 5px;
 					color: white;
 					position: relative;
-					bottom: 24%;
+					bottom: 22%;
 				}
 				.time {
 					font-size: 25px;
 					font-weight: 100;
 					margin-left: 9px;
 					position: relative;
-					bottom: 29.5%;
+					bottom: 27%;
 					color: lightblue;
 					// background: rgba(100, 100, 100, 0.4);
 					width: 250px;
 				}
+			}
+			footer {
+				width: 100vw;
+				height: 3vh;
+				position: absolute;
+				left: -1vw;
+				top: 202vh;
+				background-color: $background-color_1;
+				color: transparent;
 			}
 			&::-webkit-scrollbar {
 				display: none;
@@ -1180,7 +1189,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 				width: 98vw;
 				position: absolute;
 				left: -2.5vw;
-				top: 2vh;
+				top: 1vh;
 				text-align: center;
 				.welcomeheader {
 					color: $color_2;
@@ -1202,7 +1211,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			}
 			.services1 {
 				display: inline-flex;
-				margin-top: 95vh;
+				margin-top: 93vh;
 			}
 			.mainservices {
 				background: white;
@@ -1250,7 +1259,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					}
 				}
 				.event1 {
-					margin-top: 10.5%;
+					margin-top: 8.5%;
 					width: 45%;
 					margin-left: 5%;
 					h2 {
@@ -1268,8 +1277,8 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					list-style: none;
 					width: 34%;
 					height: 50%;
-					margin-left: 1vw;
-					padding-bottom: -10vh;
+					margin-left: 3vw;
+					margin-bottom: -2vh;
 					cursor: default;
 					li {
 						width: 48%;
@@ -1277,7 +1286,6 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 						height: 20vh;
 						display: inline-flex;
 						flex-wrap: wrap;
-						cursor: pointer;
 						cursor: pointer;
 					}
 				}
@@ -1298,14 +1306,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 5px;
 					color: $color_2;
 					position: relative;
-					bottom: 18%;
+					bottom: 18.5%;
 				}
 				.time {
 					font-size: 25px;
 					font-weight: 100;
 					margin-left: 9px;
 					position: relative;
-					bottom: 21.5%;
+					bottom: 22.5%;
 					color: lightblue;
 					// background: rgba(100, 100, 100, 0.4);
 					width: 250px;
@@ -1313,13 +1321,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			}
 			.services2 {
 				display: inline-flex;
-				margin-top: 17vh;
+				margin-top: 16vh;
 				position: relative;
 				left: 0;
+				padding-bottom: 1vh;
 			}
 			.men {
 				width: 48vw;
-				height: 27vw;
+				height: 30vw;
 				position: relative;
 				left: -5vh;
 				border-radius: 20px;
@@ -1333,14 +1342,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 5px;
 					color: white;
 					position: relative;
-					bottom: 21%;
+					bottom: 18.5%;
 				}
 				.time {
 					font-size: 25px;
 					font-weight: 100;
 					margin-left: 9px;
 					position: relative;
-					bottom: 25%;
+					bottom: 22.5%;
 					color: lightblue;
 					// background: rgba(100, 100, 100, 0.4);
 					width: 250px;
@@ -1348,7 +1357,7 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			}
 			.woman {
 				width: 48vw;
-				height: 27vw;
+				height: 30vw;
 				position: relative;
 				left: -69.5vw;
 				border-radius: 20px;
@@ -1362,14 +1371,14 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 					margin-left: 5px;
 					color: $color_2;
 					position: relative;
-					bottom: 21%;
+					bottom: 18.5%;
 				}
 				.time {
 					font-size: 25px;
 					font-weight: 100;
 					margin-left: 9px;
 					position: relative;
-					bottom: 25%;
+					bottom: 22.5%;
 					color: lightblue;
 					// background: rgba(100, 100, 100, 0.4);
 					width: 250px;
@@ -1377,13 +1386,12 @@ $background-color_2: rgba(255, 255, 255, 0.4);
 			}
 			footer {
 				width: 100vw;
-				height: 1vh;
+				height: 3vh;
 				position: absolute;
 				left: -1vw;
-				margin-top: 103%;
-				background-color: $background-color_1;
-				color: $color_2;
-				visibility: hidden;
+				top: 220vh;
+				background-color: transparent;
+				color: transparent;
 			}
 			&::-webkit-scrollbar {
 				display: none;
