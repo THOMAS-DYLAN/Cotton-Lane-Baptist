@@ -194,15 +194,16 @@
   body .youngadults h2 {
     font-size: 35px;
     margin-left: 5px;
+    color: white;
     position: relative;
-    bottom: 98%;
+    bottom: 58%;
   }
   body .youngadults .time {
     font-size: 25px;
     font-weight: 100;
     margin-left: 9px;
     position: relative;
-    bottom: 96%;
+    bottom: 56%;
     color: lightblue;
   }
   body .men {
