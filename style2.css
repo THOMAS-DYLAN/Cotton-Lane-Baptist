@@ -1,1386 +1,1416 @@
-@keyframes arrow {
-  100% {
-    color: white;
-  }
-  0% {
-    color: black;
-  }
-}
+$color_1: black;
+$color_2: white;
+$color_3: rgb(240, 240, 240);
+$color_4: lightblue;
+$color_5: rgb(236, 225, 225);
+$font-family_1: "Times New Roman", Times, serif;
+$background-color_1: black;
+$background-color_2: rgba(255, 255, 255, 0.4);
 
+@keyframes arrow {
+	100% {
+		color: white;
+	}
+	0% {
+		color: black;
+	}
+}
+/*# sourceMappingURL=style.css.map */
 @media only screen and (max-width: 480px) {
-  html {
-    background-color: black;
-  }
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 101%;
-    position: absolute;
-    left: -1vw;
-    top: -1vw;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    scrollbar-width: none;
-  }
-  body nav {
-    display: inline-flex;
-    width: 101.5vw;
-    height: 10vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    justify-content: space-evenly;
-    z-index: 5;
-  }
-  body nav h2 {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    font-size: 20px;
-    position: absolute;
-    top: 3.5vh;
-    left: 5%;
-  }
-  body nav .expand {
-    display: default;
-    color: black;
-    font-size: 30px;
-    position: absolute;
-    top: 3vh;
-    right: 5%;
-  }
-  body nav .expand:hover {
-    cursor: pointer;
-  }
-  body nav ul {
-    visibility: hidden;
-    list-style: none;
-    width: 101vw;
-    display: inline;
-    position: absolute;
-    top: 10.1vh;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-  }
-  body nav ul a {
-    color: black;
-    text-decoration: none;
-  }
-  body nav ul a li {
-    margin-top: 3px;
-    font-size: 15px;
-    margin-left: -1%;
-    color: black;
-  }
-  body .welcome {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 2vh;
-    text-align: center;
-  }
-  body .welcome .welcomeheader {
-    color: white;
-    margin-top: -40vh;
-    font-size: 45px;
-    position: relative;
-  }
-  body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 24px;
-    margin-top: 23vh;
-    position: relative;
-  }
-  body .welcome img {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-  body .mainservices {
-    background: white;
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  body .mainservices h3 {
-    font-size: 30px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  body .mainservices .sundayschool {
-    margin-top: -1.5%;
-    width: 50%;
-  }
-  body .mainservices .sundayschool h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .sundayschool .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .secondservice {
-    margin-top: -1.5%;
-    width: 50%;
-  }
-  body .mainservices .secondservice h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .secondservice .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event1 {
-    margin-top: 13%;
-    width: 50%;
-  }
-  body .mainservices .event1 h2 {
-    font-size: 20px;
-    margin-left: 15px;
-  }
-  body .mainservices .event1 .time {
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices ul {
-    list-style: none;
-    width: 34%;
-    height: 50%;
-    margin-left: 1vw;
-    margin-top: 5vh;
-  }
-  body .mainservices ul li {
-    width: 40%;
-    font-size: xx-large;
-    height: 5vh;
-    display: inline-flex;
-    flex-wrap: wrap;
-    cursor: pointer;
-  }
-  body .youngadults {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 13.5%;
-  }
-  body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 21%;
-    color: lightblue;
-  }
-  body .men {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 13.5%;
-  }
-  body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 21%;
-    color: lightblue;
-  }
-  body .woman {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 13.5%;
-  }
-  body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 21%;
-    color: lightblue;
-  }
-  body .seniors {
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 17%;
-  }
-  body .seniors .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: lightblue;
-  }
-  body footer {
-    width: 100vw;
-    height: 1vh;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    background-color: black;
-    color: white;
-    visibility: hidden;
-  }
-  body::-webkit-scrollbar {
-    display: none;
-  }
+	html {
+		background-color: $background-color_1;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	body {
+		-ms-overflow-style: none;
+		scrollbar-width: hidden;
+		width: 101%;
+		position: absolute;
+		left: -1vw;
+		top: -1vw;
+		background: url("./imgs/cross.jfif");
+		background-repeat: no-repeat;
+		background-size: cover;
+		scrollbar-width: none;
+		nav {
+			display: inline-flex;
+			width: 101.5vw;
+			height: 10vh;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: $background-color_2;
+			border: none;
+			justify-content: space-evenly;
+			z-index: 5;
+			h2 {
+				display: inline-flex;
+				flex-wrap: nowrap;
+				font-size: 20px;
+				position: absolute;
+				top: 3.5vh;
+				left: 5%;
+			}
+			.expand {
+				display: default;
+				color: $color_1;
+				font-size: 30px;
+				position: absolute;
+				top: 3vh;
+				right: 5%;
+				&:hover {
+					cursor: pointer;
+				}
+			}
+			ul {
+				visibility: hidden;
+				list-style: none;
+				width: 101vw;
+				display: inline;
+				position: absolute;
+				top: 10.1vh;
+				background-color: $background-color_2;
+				border: none;
+				border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+				a {
+					color: $color_1;
+					text-decoration: none;
+					li {
+						margin-top: 3px;
+						font-size: 15px;
+						margin-left: -1%;
+						color: $color_1;
+					}
+				}
+			}
+		}
+		.welcome {
+			height: 40vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 2vh;
+			text-align: center;
+			.welcomeheader {
+				color: $color_2;
+				margin-top: -40vh;
+				font-size: 45px;
+				position: relative;
+			}
+			.nameheader {
+				color: $color_3;
+				font-size: 24px;
+				margin-top: 23vh;
+				position: relative;
+			}
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 15px;
+			}
+		}
+		.mainservices {
+			background: white;
+			height: 40vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			display: inline-flex;
+			flex-wrap: wrap;
+			h3 {
+				font-size: 30px;
+				margin-left: 12px;
+				margin-top: 8px;
+				width: 100%;
+				font-family: $font-family_1;
+			}
+			.sundayschool {
+				margin-top: -1.5%;
+				width: 50%; 
+				h2 {
+					font-size: 20px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 15px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			.secondservice {
+				margin-top: -1.5%;
+				width: 50%;
+				h2 {
+					font-size: 20px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 15px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			.event1 {
+				margin-top: 13%;
+				width: 50%;
+				h2 {
+					font-size: 20px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 15px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			ul {
+				list-style: none;
+				width: 34%;
+				height: 50%;
+				margin-left: .5vw;
+				margin-top: 5vh;
+				li {
+					width: 40%;
+					font-size: xx-large;
+					height: 5vh;
+					display: inline-flex;
+					flex-wrap: wrap;
+					cursor: pointer;
+				}
+			}
+		}
+		.youngadults {
+			height: 40vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 28%;
+			}
+			.time {
+				font-size: 25px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 36%;
+				color: $color_4;
+			}
+		}
+		.men {
+			height: 40vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 28%;
+			}
+			.time {
+				font-size: 25px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 36%;
+				color: $color_4;
+			}
+		}
+		.woman {
+			height: 40vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 28%;
+			}
+			.time {
+				font-size: 25px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 36%;
+				color: $color_4;
+			}
+		}
+		.seniors {
+			height: 40vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 17%;
+			}
+			.time {
+				font-size: 25px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 25%;
+				color: $color_4;
+			}
+		}
+		footer {
+			width: 100vw;
+			height: 1vh;
+			margin-left: 1vw;
+			margin-top: 1vh;
+			background-color: $background-color_1;
+			color: $color_2;
+			visibility: hidden;
+		}
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
 }
 @media only screen and (min-width: 481px) {
-  html {
-    background-color: black;
-  }
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 101%;
-    position: absolute;
-    left: -1vw;
-    top: -4vw;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    scrollbar-width: none;
-  }
-  body nav {
-    display: inline-flex;
-    width: 101.5vw;
-    height: 15vh;
-    position: sticky;
-    left: 0;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    z-index: 5;
-  }
-  body nav .expand {
-    color: black;
-    font-size: 40px;
-    position: absolute;
-    top: 7.5%;
-    right: 5%;
-  }
-  body nav .expand:hover {
-    cursor: pointer;
-  }
-  body nav h2 {
-    display: inline-flex;
-    position: absolute;
-    top: 2.5%;
-    left: 5%;
-  }
-  body nav ul {
-    visibility: hidden;
-    list-style: none;
-    width: 101vw;
-    display: inline;
-    position: absolute;
-    top: 2.5%;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-  }
-  body nav ul a {
-    color: black;
-    text-decoration: none;
-  }
-  body nav ul a li {
-    margin-top: 3px;
-    font-size: 15px;
-    margin-left: -1%;
-    color: black;
-  }
-  body .welcome {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 2vh;
-    text-align: center;
-    border-radius: 17px;
-    border: 2px solid rgba(245, 245, 245, 0.3);
-  }
-  body .welcome .welcomeheader {
-    color: white;
-    margin-top: -15vh;
-    font-size: 45px;
-    position: relative;
-  }
-  body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 30px;
-  }
-  body .welcome img {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-  body .mainservices {
-    background: white;
-    height: 40vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  body .mainservices h3 {
-    font-size: 35px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 90%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  body .mainservices .sundayschool {
-    margin-top: -5.5%;
-    width: 48%;
-  }
-  body .mainservices .sundayschool h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .sundayschool .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .secondservice {
-    margin-top: -5.5%;
-    width: 50%;
-  }
-  body .mainservices .secondservice h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .secondservice .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event1 {
-    margin-top: 7%;
-    width: 48%;
-  }
-  body .mainservices .event1 h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .event1 .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices ul {
-    list-style: none;
-    width: 34%;
-    height: 12%;
-    margin-left: 1vw;
-    margin-bottom: -10vh;
-  }
-  body .mainservices ul li {
-    width: 48%;
-    font-size: xx-large;
-    height: 5vh;
-    display: inline-flex;
-    flex-wrap: wrap;
-    cursor: pointer;
-  }
-  body .youngadults {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 15.5%;
-  }
-  body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 23%;
-    color: lightblue;
-  }
-  body .men {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 15.5%;
-  }
-  body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 23%;
-    color: lightblue;
-  }
-  body .woman {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 15.5%;
-  }
-  body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 23%;
-    color: lightblue;
-  }
-  body .seniors {
-    height: 50vh;
-    width: 95vw;
-    margin-left: 3.5vw;
-    margin-right: 1vw;
-    margin-top: 1vh;
-    border-radius: 20px;
-  }
-  body .seniors img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .seniors h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18%;
-  }
-  body .seniors .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 25%;
-    color: lightblue;
-  }
-  body footer {
-    width: 100vw;
-    height: 1vh;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    background-color: black;
-    color: white;
-    visibility: hidden;
-  }
-  body::-webkit-scrollbar {
-    display: none;
-  }
+	html {
+		background-color: $background-color_1;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	body {
+		-ms-overflow-style: none;
+		scrollbar-width: hidden;
+		width: 101%;
+		position: absolute;
+		left: -1vw;
+		top: -4vw;
+		background: url("./imgs/cross.jfif");
+		background-repeat: no-repeat;
+		background-size: cover;
+		scrollbar-width: none;
+		nav {
+			display: inline-flex;
+			width: 101.5vw;
+			height: 15vh;
+			position: sticky;
+			left: 0;
+			top: 0;
+			background-color: $background-color_2;
+			border: none;
+			z-index: 5;
+			.expand {
+				color: $color_1;
+				font-size: 40px;
+				position: absolute;
+				top: 7.5%;
+				right: 5%;
+				&:hover {
+					cursor: pointer;
+				}
+			}
+			h2 {
+				display: inline-flex;
+				position: absolute;
+				top: 2.5%;
+				left: 5%;
+			}
+			ul {
+				visibility: hidden;
+				list-style: none;
+				width: 101vw;
+				display: inline;
+				position: absolute;
+				top: 2.5%;
+				background-color: $background-color_2;
+				border: none;
+				border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+				a {
+					color: $color_1;
+					text-decoration: none;
+					li {
+						margin-top: 3px;
+						font-size: 15px;
+						margin-left: -1%;
+						color: $color_1;
+					}
+				}
+			}
+		}
+		.welcome {
+			height: 50vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 2vh;
+			text-align: center;
+			border-radius: 17px;
+			border: 2px solid rgba(245, 245, 245, 0.3);
+			.welcomeheader {
+				color: $color_2;
+				margin-top: -15vh;
+				font-size: 45px;
+				position: relative;
+			}
+			.nameheader {
+				color: $color_3;
+				font-size: 30px;
+			}
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 15px;
+			}
+		}
+		.mainservices {
+			background: white;
+			height: 40vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			display: inline-flex;
+			flex-wrap: wrap;
+			h3 {
+				font-size: 35px;
+				margin-left: 12px;
+				margin-top: 8px;
+				width: 90%;
+				font-family: $font-family_1;
+			}
+			.sundayschool {
+				margin-top: -5.5%;
+				width: 48%;
+				h2 {
+					font-size: 25px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 20px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			.secondservice {
+				margin-top: -5.5%;
+				width: 50%;
+				h2 {
+					font-size: 25px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 20px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			.event1 {
+				margin-top: 7%;
+				width: 48%;
+				h2 {
+					font-size: 25px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 20px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			ul {
+				list-style: none;
+				width: 34%;
+				height: 12%;
+				margin-left: 1vw;
+				margin-bottom: -10vh;
+				li {
+					width: 48%;
+					font-size: xx-large;
+					height: 5vh;
+					display: inline-flex;
+					flex-wrap: wrap;
+					cursor: pointer;
+				}
+			}
+		}
+		.youngadults {
+			height: 50vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 15.5%;
+			}
+			.time {
+				font-size: 25px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 23%;
+				color: $color_4;
+			}
+		}
+		.men {
+			height: 50vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 15.5%;
+			}
+			.time {
+				font-size: 25px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 23%;
+				color: $color_4;
+			}
+		}
+		.woman {
+			height: 50vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 15.5%;
+			}
+			.time {
+				font-size: 25px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 23%;
+				color: $color_4;
+			}
+		}
+		.seniors {
+			height: 50vh;
+			width: 95vw;
+			margin-left: 3.5vw;
+			margin-right: 1vw;
+			margin-top: 1vh;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 18%;
+			}
+			.time {
+				font-size: 25px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 25%;
+				color: $color_4;
+			}
+		}
+		footer {
+			width: 100vw;
+			height: 1vh;
+			margin-left: 1vw;
+			margin-top: 1vh;
+			background-color: $background-color_1;
+			color: $color_2;
+			visibility: hidden;
+		}
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
 }
 @media only screen and (min-width: 769px) {
-  html {
-    background-color: black;
-    overflow-x: hidden;
-  }
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 101%;
-    position: absolute;
-    left: -1vw;
-    top: -1vw;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-    flex-wrap: wrap;
-    scrollbar-width: none;
-    overflow-x: hidden;
-  }
-  body nav {
-    display: inline-flex;
-    width: 101.5vw;
-    height: 10%;
-    position: sticky;
-    left: 0;
-    top: 1vh;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    z-index: 2000;
-  }
-  body nav .expand {
-    display: none;
-  }
-  body nav h2 {
-    width: 50%;
-    display: inline-flex;
-    position: relative;
-    top: 1vh;
-    left: 3%;
-  }
-  body nav ul {
-    width: 50%;
-    display: inline-flex;
-    visibility: visible;
-    list-style: none;
-    position: relative;
-    top: 1vh;
-    left: 5%;
-    background: transparent;
-    border: none;
-  }
-  body nav ul a {
-    color: black;
-    text-decoration: none;
-  }
-  body nav ul a li {
-    width: 88px;
-    color: black;
-    margin-left: 5px;
-    cursor: default;
-  }
-  body nav ul a li#wom {
-    width: 108px;
-  }
-  body nav ul a li#sen {
-    width: 100px;
-  }
-  body .welcome {
-    height: 60vh;
-    width: 98vw;
-    position: relative;
-    left: -0.7vw;
-    text-align: center;
-  }
-  body .welcome .welcomeheader {
-    color: white;
-    margin-top: -50vh;
-    font-size: 50px;
-    position: relative;
-  }
-  body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 50px;
-    margin-top: 27vh;
-    position: relative;
-  }
-  body .welcome img {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-  body .mainservices {
-    background: white;
-    height: 45vh;
-    width: 97vw;
-    position: relative;
-    right: 1vw;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  body .mainservices h3 {
-    font-size: 45px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  body .mainservices .sundayschool {
-    margin-top: -3%;
-    width: 43%;
-    margin-left: 9%;
-  }
-  body .mainservices .sundayschool h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .sundayschool .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .secondservice {
-    margin-top: -3%;
-    width: 40%;
-  }
-  body .mainservices .secondservice h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .secondservice .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices .event1 {
-    margin-top: 12%;
-    width: 41%;
-    margin-left: 9%;
-  }
-  body .mainservices .event1 h2 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  body .mainservices .event1 .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  body .mainservices ul {
-    list-style: none;
-    width: 34%;
-    height: 50%;
-    margin-left: 1vw;
-    padding-bottom: -10vh;
-  }
-  body .mainservices ul li {
-    width: 48%;
-    font-size: xx-large;
-    height: 10vh;
-    display: inline-flex;
-    flex-wrap: wrap;
-    cursor: pointer;
-  }
-  body .youngadults {
-    height: 30vh;
-    width: 31vw;
-    position: relative;
-    left: -0.8vw;
-    border-radius: 20px;
-  }
-  body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .youngadults h2 {
-    font-size: 25px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 14%;
-  }
-  body .youngadults .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 17%;
-    color: lightblue;
-  }
-  body .men {
-    height: 30vh;
-    width: 31vw;
-    margin-top: -30vh;
-    position: relative;
-    left: 32vw;
-    border-radius: 20px;
-  }
-  body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .men h2 {
-    font-size: 25px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 14%;
-  }
-  body .men .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 17%;
-    color: lightblue;
-  }
-  body .woman {
-    height: 30vh;
-    width: 31vw;
-    margin-top: -30vh;
-    margin-left: 68vw;
-    border-radius: 20px;
-  }
-  body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  body .woman h2 {
-    font-size: 25px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 14%;
-  }
-  body .woman .time {
-    font-size: 20px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 17%;
-    color: lightblue;
-  }
-  body footer {
-    width: 100vw;
-    height: 1vh;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    background-color: black;
-    color: white;
-    visibility: hidden;
-  }
-  body::-webkit-scrollbar {
-    display: none;
-  }
+	html {
+		background-color: $background-color_1;
+		overflow-x: hidden;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	body {
+		-ms-overflow-style: none;
+		scrollbar-width: hidden;
+		width: 101%;
+		position: absolute;
+		left: -1vw;
+		top: -1vw;
+		background: url("./imgs/cross.jfif");
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: inline-flex;
+		flex-wrap: wrap;
+		scrollbar-width: none;
+		overflow-x: hidden;
+		nav {
+			display: inline-flex;
+			width: 101.5vw;
+			height: 10%;
+			position: sticky;
+			left: 0;
+			top: 1vh;
+			background-color: $background-color_2;
+			border: 2px solid rgba(0, 0, 0, 0.5);
+			z-index: 2000;
+			.expand {
+				display: none;
+			}
+			h2 {
+				width: 50%;
+				display: inline-flex;
+				position: relative;
+				top: 1vh;
+				left: 3%;
+			}
+			ul {
+				width: 50%;
+				display: inline-flex;
+				visibility: visible;
+				list-style: none;
+				position: relative;
+				top: 1vh;
+				left: 5%;
+				background: transparent;
+				border: none;
+				a {
+					color: $color_1;
+					text-decoration: none;
+					li {
+						width: 88px;
+						color: $color_1;
+						margin-left: 5px;
+						cursor: default;
+					}
+					li#wom {
+						width: 108px;
+					}
+					li#sen {
+						width: 100px;
+					}
+				}
+			}
+		}
+		.welcome {
+			height: 60vh;
+			width: 98vw;
+			position: relative;
+			left: -0.7vw;
+			text-align: center;
+			.welcomeheader {
+				color: $color_2;
+				margin-top: -50vh;
+				font-size: 50px;
+				position: relative;
+			}
+			.nameheader {
+				color: $color_3;
+				font-size: 50px;
+				margin-top: 27vh;
+				position: relative;
+			}
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 15px;
+			}
+		}
+		.mainservices {
+			background: white;
+			height: 45vh;
+			width: 97vw;
+			position: relative;
+			right: 1vw;
+			border-radius: 20px;
+			display: inline-flex;
+			flex-wrap: wrap;
+			h3 {
+				font-size: 45px;
+				margin-left: 12px;
+				margin-top: 8px;
+				width: 100%;
+				font-family: $font-family_1;
+			}
+			.sundayschool {
+				margin-top: -3%;
+				width: 43%;
+				margin-left: 9%;
+				h2 {
+					font-size: 25px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 20px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			.secondservice {
+				margin-top: -3%;
+				width: 40%;
+				h2 {
+					font-size: 25px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 20px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			.event1 {
+				margin-top: 5%;
+				width: 41%;
+				margin-left: 9%;
+				h2 {
+					font-size: 25px;
+					margin-left: 15px;
+				}
+				.time {
+					font-size: 20px;
+					font-weight: 100;
+					margin-top: -12px;
+					margin-left: 19px;
+				}
+			}
+			ul {
+				list-style: none;
+				width: 34%;
+				height: 50%;
+				margin-left: 1vw;
+				padding-bottom: -10vh;
+				li {
+					width: 48%;
+					font-size: xx-large;
+					height: 10vh;
+					display: inline-flex;
+					flex-wrap: wrap;
+					cursor: pointer;
+				}
+			}
+		}
+		.youngadults {
+			height: 30vh;
+			width: 31vw;
+			position: relative;
+			left: -0.8vw;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 25px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 25%;
+			}
+			.time {
+				font-size: 20px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 33%;
+				color: lightblue;
+			}
+		}
+		.men {
+			height: 30vh;
+			width: 31vw;
+			margin-top: -30vh;
+			position: relative;
+			left: 32vw;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 25px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 25%;
+			}
+			.time {
+				font-size: 20px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 33%;
+				color: lightblue;
+			}
+		}
+		.woman {
+			height: 30vh;
+			width: 31vw;
+			margin-top: -30vh;
+			margin-left: 68vw;
+			border-radius: 20px;
+			img {
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2 {
+				font-size: 25px;
+				margin-left: 5px;
+				color: $color_2;
+				position: relative;
+				bottom: 24%;
+			}
+			.time {
+				font-size: 20px;
+				font-weight: 100;
+				margin-left: 9px;
+				position: relative;
+				bottom: 33%;
+				color: lightblue;
+			}
+		}
+		footer {
+			width: 100vw;
+			height: 1vh;
+			margin-left: 1vw;
+			margin-top: 1vh;
+			background-color: $background-color_1;
+			color: $color_2;
+			visibility: hidden;
+		}
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
 }
 @media only screen and (min-width: 1024px) {
-  html {
-    background-color: red;
-  }
-  html body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-    flex-wrap: wrap;
-    scrollbar-width: none;
-  }
-  html body nav {
-    display: inline-flex;
-    height: 15vh;
-    width: 103vw;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    z-index: 2000;
-  }
-  html body nav .expand {
-    display: none;
-  }
-  html body nav h2 {
-    width: 50%;
-    display: inline-flex;
-    margin-left: 2%;
-    padding-right: 18%;
-    position: absolute;
-    top: 2.5vh;
-    left: 1%;
-  }
-  html body nav ul {
-    width: 50%;
-    display: inline-flex;
-    visibility: visible;
-    list-style: none;
-    margin-left: 35%;
-    position: absolute;
-    top: 1vh;
-  }
-  html body nav ul a {
-    color: black;
-    text-decoration: none;
-  }
-  html body nav ul a li {
-    margin-left: 18px;
-    color: black;
-  }
-  html body .welcome {
-    height: 90vh;
-    width: 98vw;
-    position: absolute;
-    left: -2.5vw;
-    top: 1vh;
-    text-align: center;
-  }
-  html body .welcome .welcomeheader {
-    color: white;
-    margin-top: -70vh;
-    font-size: 75px;
-    position: relative;
-  }
-  html body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 70px;
-    margin-top: 20vh;
-    position: relative;
-  }
-  html body .welcome img {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-  html body .services1 {
-    display: inline-flex;
-    margin-top: 51vw;
-  }
-  html body .mainservices {
-    background: white;
-    width: 48vw;
-    height: 30vw;
-    position: relative;
-    left: -2.5vw;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    z-index: 2;
-  }
-  html body .mainservices h3 {
-    font-size: 45px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  html body .mainservices .sundayschool {
-    margin-top: -2.5%;
-    width: 45%;
-    margin-left: 5%;
-  }
-  html body .mainservices .sundayschool h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  html body .mainservices .sundayschool .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices .secondservice {
-    margin-top: -2.5%;
-    width: 50%;
-  }
-  html body .mainservices .secondservice h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  html body .mainservices .secondservice .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices .event1 {
-    margin-top: 10.5%;
-    width: 45%;
-    margin-left: 5%;
-  }
-  html body .mainservices .event1 h2 {
-    font-size: 27px;
-    margin-left: 15px;
-  }
-  html body .mainservices .event1 .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices ul {
-    list-style: none;
-    width: 34%;
-    height: 40%;
-    margin-left: 1vw;
-    cursor: default;
-  }
-  html body .mainservices ul a {
-    width: 48%;
-    font-size: xx-large;
-    height: 15vh;
-    display: inline-flex;
-    flex-wrap: wrap;
-    cursor: pointer;
-    cursor: pointer;
-  }
-  html body .youngadults {
-    width: 48vw;
-    height: 30vw;
-    position: relative;
-    left: -5vw;
-    border-radius: 20px;
-  }
-  html body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  html body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 20.5%;
-  }
-  html body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 26.5%;
-    color: lightblue;
-    width: 250px;
-  }
-  html body .services2 {
-    display: inline-flex;
-    margin-top: 16vh;
-    position: relative;
-    left: -34.5vw;
-  }
-  html body .men {
-    width: 48vw;
-    height: 30vw;
-    border-radius: 20px;
-  }
-  html body .men img {
-    height: 100%;
-    width: 100%;
-    margin-top: 15vh;
-  }
-  html body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 22%;
-  }
-  html body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 27%;
-    color: lightblue;
-    width: 250px;
-  }
-  html body .woman {
-    width: 48vw;
-    height: 30vw;
-    border-radius: 20px;
-    position: relative;
-    left: -35vw;
-  }
-  html body .woman img {
-    height: 100%;
-    width: 100%;
-    margin-top: 15vh;
-  }
-  html body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 22%;
-  }
-  html body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 27%;
-    color: lightblue;
-    width: 250px;
-  }
-  html body footer {
-    width: 100vw;
-    height: 3vh;
-    position: absolute;
-    left: -1vw;
-    top: 202vh;
-    background-color: black;
-    color: transparent;
-  }
-  html body::-webkit-scrollbar {
-    display: none;
-  }
+	html {
+		background-color: red;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		body {
+			-ms-overflow-style: none;
+			scrollbar-width: hidden;
+			width: 100%;
+			position: absolute;
+			left: 0;
+			background: url("./imgs/cross.jfif");
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: inline-flex;
+			flex-wrap: wrap;
+			scrollbar-width: none;
+			nav {
+				display: inline-flex;
+				height: 15vh;
+				width: 103vw;
+				position: absolute;
+				left: 0;
+				top: 0;
+				background-color: $background-color_2;
+				border: 2px solid rgba(0, 0, 0, 0.5);
+				z-index: 2000;
+				.expand {
+					display: none;
+				}
+				h2 {
+					width: 50%;
+					display: inline-flex;
+					margin-left: 2%;
+					padding-right: 18%;
+					position: absolute;
+					top: 2.5vh;
+					left: 1%;
+				}
+				ul {
+					width: 50%;
+					display: inline-flex;
+					visibility: visible;
+					list-style: none;
+					margin-left: 35%;
+					position: absolute;
+					top: 1vh;
+					a {
+						color: $color_1;
+						text-decoration: none;
+						li {
+							margin-left: 18px;
+							color: $color_1;
+						}
+					}
+				}
+			}
+			.welcome {
+				height: 90vh;
+				width: 98vw;
+				position: absolute;
+				left: -2.5vw;
+				top: 1vh;
+				text-align: center;
+				.welcomeheader {
+					color: $color_2;
+					margin-top: -70vh;
+					font-size: 75px;
+					position: relative;
+				}
+				.nameheader {
+					color: $color_3;
+					font-size: 70px;
+					margin-top: 20vh;
+					position: relative;
+				}
+				img {
+					height: 100%;
+					width: 100%;
+					border-radius: 15px;
+				}
+			}
+			.services1 {
+				display: inline-flex;
+				margin-top: 51vw;
+			}
+			.mainservices {
+				background: white;
+				width: 48vw;
+				height: 30vw;
+				position: relative;
+				left: -2.5vw;
+				border-radius: 20px;
+				display: inline-flex;
+				flex-wrap: wrap;
+				z-index: 2;
+				h3 {
+					font-size: 45px;
+					margin-left: 12px;
+					margin-top: 8px;
+					width: 100%;
+					font-family: $font-family_1;
+				}
+				.sundayschool {
+					margin-top: -2.5%;
+					width: 45%;
+					margin-left: 5%;
+					h2 {
+						font-size: 30px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				.secondservice {
+					margin-top: -2.5%;
+					width: 50%;
+					h2 {
+						font-size: 30px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				.event1 {
+					margin-top: 10.5%;
+					width: 45%;
+					margin-left: 5%;
+					h2 {
+						font-size: 27px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				ul {
+					list-style: none;
+					width: 34%;
+					height: 40%;
+					margin-left: 1vw;
+					cursor: default;
+					a{
+						width: 48%;
+						font-size: xx-large;
+						height: 15vh;
+						display: inline-flex;
+						flex-wrap: wrap;
+						cursor: pointer;
+						cursor: pointer;
+					}
+				}
+			}
+			.youngadults {
+				width: 48vw;
+				height: 30vw;
+				position: relative;
+				left: -5vw;
+				border-radius: 20px;
+				img {
+					height: 100%;
+					width: 100%;
+					border-radius: 20px;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: $color_2;
+					position: relative;
+					bottom: 20.5%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 26.5%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			.services2 {
+				display: inline-flex;
+				margin-top: 16vh;
+				position: relative;
+				left: -34.5vw;
+			}
+			.men {
+				width: 48vw;
+				height: 30vw;
+				border-radius: 20px;
+				img {
+					height: 100%;
+					width: 100%;
+					margin-top: 15vh;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: white;
+					position: relative;
+					bottom: 22%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 27%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			.woman {
+				width: 48vw;
+				height: 30vw;
+				border-radius: 20px;
+				position: relative;
+				left: -35vw;
+				img {
+					height: 100%;
+					width: 100%;
+					margin-top: 15vh;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: white;
+					position: relative;
+					bottom: 22%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 27%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			footer {
+				width: 100vw;
+				height: 3vh;
+				position: absolute;
+				left: -1vw;
+				top: 202vh;
+				background-color: $background-color_1;
+				color: transparent;
+			}
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+	}
 }
 @media only screen and (min-width: 1200px) {
-  html {
-    background-color: red;
-  }
-  html body {
-    -ms-overflow-style: none;
-    scrollbar-width: hidden;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    background: url("./imgs/cross.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-    flex-wrap: wrap;
-    scrollbar-width: none;
-  }
-  html body nav {
-    display: inline-flex;
-    height: 15vh;
-    width: 103vw;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    z-index: 2000;
-  }
-  html body nav .expand {
-    display: none;
-  }
-  html body nav h2 {
-    width: 50%;
-    display: inline-flex;
-    margin-left: 2%;
-    padding-right: 18%;
-    position: absolute;
-    top: 2.5vh;
-    left: 1%;
-  }
-  html body nav ul {
-    width: 50%;
-    display: inline-flex;
-    visibility: visible;
-    list-style: none;
-    margin-left: 35%;
-    position: absolute;
-    top: 1vh;
-  }
-  html body nav ul a {
-    color: black;
-    text-decoration: none;
-  }
-  html body nav ul a li {
-    margin-left: 18px;
-    color: black;
-  }
-  html body .welcome {
-    height: 90vh;
-    width: 98vw;
-    position: absolute;
-    left: -2.5vw;
-    top: 1vh;
-    text-align: center;
-  }
-  html body .welcome .welcomeheader {
-    color: white;
-    margin-top: -70vh;
-    font-size: 75px;
-    position: relative;
-  }
-  html body .welcome .nameheader {
-    color: rgb(240, 240, 240);
-    font-size: 70px;
-    margin-top: 20vh;
-    position: relative;
-  }
-  html body .welcome img {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-  html body .services1 {
-    display: inline-flex;
-    margin-top: 93vh;
-  }
-  html body .mainservices {
-    background: white;
-    width: 48vw;
-    height: 30vw;
-    position: relative;
-    left: -2.5vw;
-    border-radius: 20px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  html body .mainservices h3 {
-    font-size: 45px;
-    margin-left: 12px;
-    margin-top: 8px;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-  }
-  html body .mainservices .sundayschool {
-    margin-top: -2.5%;
-    width: 45%;
-    margin-left: 5%;
-  }
-  html body .mainservices .sundayschool h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  html body .mainservices .sundayschool .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices .secondservice {
-    margin-top: -2.5%;
-    width: 50%;
-  }
-  html body .mainservices .secondservice h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  html body .mainservices .secondservice .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices .event1 {
-    margin-top: 8.5%;
-    width: 45%;
-    margin-left: 5%;
-  }
-  html body .mainservices .event1 h2 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  html body .mainservices .event1 .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: -12px;
-    margin-left: 19px;
-  }
-  html body .mainservices ul {
-    list-style: none;
-    width: 34%;
-    height: 50%;
-    margin-left: 3vw;
-    margin-bottom: -2vh;
-    cursor: default;
-  }
-  html body .mainservices ul li {
-    width: 48%;
-    font-size: xx-large;
-    height: 20vh;
-    display: inline-flex;
-    flex-wrap: wrap;
-    cursor: pointer;
-  }
-  html body .youngadults {
-    width: 48vw;
-    height: 30vw;
-    position: relative;
-    left: -5vw;
-    border-radius: 20px;
-  }
-  html body .youngadults img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  html body .youngadults h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18.5%;
-  }
-  html body .youngadults .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 22.5%;
-    color: lightblue;
-    width: 250px;
-  }
-  html body .services2 {
-    display: inline-flex;
-    margin-top: 16vh;
-    position: relative;
-    left: 0;
-    padding-bottom: 1vh;
-  }
-  html body .men {
-    width: 48vw;
-    height: 30vw;
-    position: relative;
-    left: -5vh;
-    border-radius: 20px;
-  }
-  html body .men img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  html body .men h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18.5%;
-  }
-  html body .men .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 22.5%;
-    color: lightblue;
-    width: 250px;
-  }
-  html body .woman {
-    width: 48vw;
-    height: 30vw;
-    position: relative;
-    left: -69.5vw;
-    border-radius: 20px;
-  }
-  html body .woman img {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
-  }
-  html body .woman h2 {
-    font-size: 35px;
-    margin-left: 5px;
-    color: white;
-    position: relative;
-    bottom: 18.5%;
-  }
-  html body .woman .time {
-    font-size: 25px;
-    font-weight: 100;
-    margin-left: 9px;
-    position: relative;
-    bottom: 22.5%;
-    color: lightblue;
-    width: 250px;
-  }
-  html body footer {
-    width: 100vw;
-    height: 3vh;
-    position: absolute;
-    left: -1vw;
-    top: 220vh;
-    background-color: transparent;
-    color: transparent;
-  }
-  html body::-webkit-scrollbar {
-    display: none;
-  }
-}/*# sourceMappingURL=style2.css.map */
+	html {
+		background-color: red;
+      &::-webkit-scrollbar {
+			display: none;
+		}
+		body {
+			-ms-overflow-style: none;
+			scrollbar-width: hidden;
+			width: 100%;
+			position: absolute;
+			left: 0;
+			background: url("./imgs/cross.jfif");
+			background-repeat: no-repeat;
+			background-size: cover;
+			display: inline-flex;
+			flex-wrap: wrap;
+			scrollbar-width: none;
+			nav {
+				display: inline-flex;
+				height: 15vh;
+				width: 103vw;
+				position: absolute;
+				left: 0;
+				top: 0;
+				background-color: $background-color_2;
+				border: 2px solid rgba(0, 0, 0, 0.5);
+				z-index: 2000;
+				.expand {
+					display: none;
+				}
+				h2 {
+					width: 50%;
+					display: inline-flex;
+					margin-left: 2%;
+					padding-right: 18%;
+					position: absolute;
+					top: 2.5vh;
+					left: 1%;
+				}
+				ul {
+					width: 50%;
+					display: inline-flex;
+					visibility: visible;
+					list-style: none;
+					margin-left: 35%;
+					position: absolute;
+					top: 1vh;
+					a {
+						color: $color_1;
+						text-decoration: none;
+						li {
+							margin-left: 18px;
+							color: $color_1;
+						}
+					}
+				}
+			}
+			.welcome {
+				height: 90vh;
+				width: 98vw;
+				position: absolute;
+				left: -2.5vw;
+				top: 1vh;
+				text-align: center;
+				.welcomeheader {
+					color: $color_2;
+					margin-top: -70vh;
+					font-size: 75px;
+					position: relative;
+				}
+				.nameheader {
+					color: $color_3;
+					font-size: 70px;
+					margin-top: 20vh;
+					position: relative;
+				}
+				img {
+					height: 100%;
+					width: 100%;
+					border-radius: 15px;
+				}
+			}
+			.services1 {
+				display: inline-flex;
+				margin-top: 93vh;
+			}
+			.mainservices {
+				background: white;
+				width: 48vw;
+				height: 30vw;
+				position: relative;
+				left: -2.5vw;
+				border-radius: 20px;
+				display: inline-flex;
+				flex-wrap: wrap;
+				h3 {
+					font-size: 45px;
+					margin-left: 12px;
+					margin-top: 8px;
+					width: 100%;
+					font-family: $font-family_1;
+				}
+				.sundayschool {
+					margin-top: -2.5%;
+					width: 45%;
+					margin-left: 5%;
+					h2 {
+						font-size: 30px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				.secondservice {
+					margin-top: -2.5%;
+					width: 50%;
+					h2 {
+						font-size: 30px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				.event1 {
+					margin-top: 8.5%;
+					width: 45%;
+					margin-left: 5%;
+					h2 {
+						font-size: 30px;
+						margin-left: 15px;
+					}
+					.time {
+						font-size: 25px;
+						font-weight: 100;
+						margin-top: -12px;
+						margin-left: 19px;
+					}
+				}
+				ul {
+					list-style: none;
+					width: 34%;
+					height: 50%;
+					margin-left: 3vw;
+					margin-bottom: -2vh;
+					cursor: default;
+					li {
+						width: 48%;
+						font-size: xx-large;
+						height: 20vh;
+						display: inline-flex;
+						flex-wrap: wrap;
+						cursor: pointer;
+					}
+				}
+			}
+			.youngadults {
+				width: 48vw;
+				height: 30vw;
+				position: relative;
+				left: -5vw;
+				border-radius: 20px;
+				img {
+					height: 100%;
+					width: 100%;
+					border-radius: 20px;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: $color_2;
+					position: relative;
+					bottom: 18.5%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 22.5%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			.services2 {
+				display: inline-flex;
+				margin-top: 16vh;
+				position: relative;
+				left: 0;
+				padding-bottom: 1vh;
+			}
+			.men {
+				width: 48vw;
+				height: 30vw;
+				position: relative;
+				left: -5vh;
+				border-radius: 20px;
+				img {
+					height: 100%;
+					width: 100%;
+					border-radius: 20px;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: white;
+					position: relative;
+					bottom: 18.5%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 22.5%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			.woman {
+				width: 48vw;
+				height: 30vw;
+				position: relative;
+				left: -69.5vw;
+				border-radius: 20px;
+				img {
+					height: 100%;
+					width: 100%;
+					border-radius: 20px;
+				}
+				h2 {
+					font-size: 35px;
+					margin-left: 5px;
+					color: $color_2;
+					position: relative;
+					bottom: 18.5%;
+				}
+				.time {
+					font-size: 25px;
+					font-weight: 100;
+					margin-left: 9px;
+					position: relative;
+					bottom: 22.5%;
+					color: lightblue;
+					// background: rgba(100, 100, 100, 0.4);
+					width: 250px;
+				}
+			}
+			footer {
+				width: 100vw;
+				height: 3vh;
+				position: absolute;
+				left: -1vw;
+				top: 220vh;
+				background-color: transparent;
+				color: transparent;
+			}
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+	}
+}
